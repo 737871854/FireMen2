@@ -2382,18 +2382,18 @@ public class AnimatorWrap
 	{
 		int count = LuaDLL.lua_gettop(L);
 
-		if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(string), typeof(float)))
+		if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(int), typeof(float)))
 		{
 			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
+			int arg0 = (int)LuaDLL.lua_tonumber(L, 2);
 			float arg1 = (float)LuaDLL.lua_tonumber(L, 3);
 			obj.CrossFadeInFixedTime(arg0,arg1);
 			return 0;
 		}
-		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(int), typeof(float)))
+		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(string), typeof(float)))
 		{
 			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
-			int arg0 = (int)LuaDLL.lua_tonumber(L, 2);
+			string arg0 = LuaScriptMgr.GetString(L, 2);
 			float arg1 = (float)LuaDLL.lua_tonumber(L, 3);
 			obj.CrossFadeInFixedTime(arg0,arg1);
 			return 0;
@@ -2416,6 +2416,16 @@ public class AnimatorWrap
 			obj.CrossFadeInFixedTime(arg0,arg1,arg2);
 			return 0;
 		}
+		else if (count == 5 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(int), typeof(float), typeof(int), typeof(float)))
+		{
+			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
+			int arg0 = (int)LuaDLL.lua_tonumber(L, 2);
+			float arg1 = (float)LuaDLL.lua_tonumber(L, 3);
+			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
+			float arg3 = (float)LuaDLL.lua_tonumber(L, 5);
+			obj.CrossFadeInFixedTime(arg0,arg1,arg2,arg3);
+			return 0;
+		}
 		else if (count == 5 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(string), typeof(float), typeof(int), typeof(float)))
 		{
 			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
@@ -2426,14 +2436,26 @@ public class AnimatorWrap
 			obj.CrossFadeInFixedTime(arg0,arg1,arg2,arg3);
 			return 0;
 		}
-		else if (count == 5 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(int), typeof(float), typeof(int), typeof(float)))
+		else if (count == 6 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(int), typeof(float), typeof(int), typeof(float), typeof(float)))
 		{
 			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
 			int arg0 = (int)LuaDLL.lua_tonumber(L, 2);
 			float arg1 = (float)LuaDLL.lua_tonumber(L, 3);
 			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
 			float arg3 = (float)LuaDLL.lua_tonumber(L, 5);
-			obj.CrossFadeInFixedTime(arg0,arg1,arg2,arg3);
+			float arg4 = (float)LuaDLL.lua_tonumber(L, 6);
+			obj.CrossFadeInFixedTime(arg0,arg1,arg2,arg3,arg4);
+			return 0;
+		}
+		else if (count == 6 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(string), typeof(float), typeof(int), typeof(float), typeof(float)))
+		{
+			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			float arg1 = (float)LuaDLL.lua_tonumber(L, 3);
+			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
+			float arg3 = (float)LuaDLL.lua_tonumber(L, 5);
+			float arg4 = (float)LuaDLL.lua_tonumber(L, 6);
+			obj.CrossFadeInFixedTime(arg0,arg1,arg2,arg3,arg4);
 			return 0;
 		}
 		else
@@ -2449,18 +2471,18 @@ public class AnimatorWrap
 	{
 		int count = LuaDLL.lua_gettop(L);
 
-		if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(string), typeof(float)))
+		if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(int), typeof(float)))
 		{
 			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
+			int arg0 = (int)LuaDLL.lua_tonumber(L, 2);
 			float arg1 = (float)LuaDLL.lua_tonumber(L, 3);
 			obj.CrossFade(arg0,arg1);
 			return 0;
 		}
-		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(int), typeof(float)))
+		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(string), typeof(float)))
 		{
 			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
-			int arg0 = (int)LuaDLL.lua_tonumber(L, 2);
+			string arg0 = LuaScriptMgr.GetString(L, 2);
 			float arg1 = (float)LuaDLL.lua_tonumber(L, 3);
 			obj.CrossFade(arg0,arg1);
 			return 0;
@@ -2483,6 +2505,16 @@ public class AnimatorWrap
 			obj.CrossFade(arg0,arg1,arg2);
 			return 0;
 		}
+		else if (count == 5 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(int), typeof(float), typeof(int), typeof(float)))
+		{
+			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
+			int arg0 = (int)LuaDLL.lua_tonumber(L, 2);
+			float arg1 = (float)LuaDLL.lua_tonumber(L, 3);
+			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
+			float arg3 = (float)LuaDLL.lua_tonumber(L, 5);
+			obj.CrossFade(arg0,arg1,arg2,arg3);
+			return 0;
+		}
 		else if (count == 5 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(string), typeof(float), typeof(int), typeof(float)))
 		{
 			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
@@ -2493,14 +2525,26 @@ public class AnimatorWrap
 			obj.CrossFade(arg0,arg1,arg2,arg3);
 			return 0;
 		}
-		else if (count == 5 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(int), typeof(float), typeof(int), typeof(float)))
+		else if (count == 6 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(int), typeof(float), typeof(int), typeof(float), typeof(float)))
 		{
 			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
 			int arg0 = (int)LuaDLL.lua_tonumber(L, 2);
 			float arg1 = (float)LuaDLL.lua_tonumber(L, 3);
 			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
 			float arg3 = (float)LuaDLL.lua_tonumber(L, 5);
-			obj.CrossFade(arg0,arg1,arg2,arg3);
+			float arg4 = (float)LuaDLL.lua_tonumber(L, 6);
+			obj.CrossFade(arg0,arg1,arg2,arg3,arg4);
+			return 0;
+		}
+		else if (count == 6 && LuaScriptMgr.CheckTypes(L, 1, typeof(Animator), typeof(string), typeof(float), typeof(int), typeof(float), typeof(float)))
+		{
+			Animator obj = (Animator)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Animator");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			float arg1 = (float)LuaDLL.lua_tonumber(L, 3);
+			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
+			float arg3 = (float)LuaDLL.lua_tonumber(L, 5);
+			float arg4 = (float)LuaDLL.lua_tonumber(L, 6);
+			obj.CrossFade(arg0,arg1,arg2,arg3,arg4);
 			return 0;
 		}
 		else

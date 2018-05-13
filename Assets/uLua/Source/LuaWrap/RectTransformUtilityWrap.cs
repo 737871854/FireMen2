@@ -9,6 +9,8 @@ public class RectTransformUtilityWrap
 		LuaMethod[] regs = new LuaMethod[]
 		{
 			new LuaMethod("RectangleContainsScreenPoint", RectangleContainsScreenPoint),
+			new LuaMethod("PixelAdjustPoint", PixelAdjustPoint),
+			new LuaMethod("PixelAdjustRect", PixelAdjustRect),
 			new LuaMethod("ScreenPointToWorldPointInRectangle", ScreenPointToWorldPointInRectangle),
 			new LuaMethod("ScreenPointToLocalPointInRectangle", ScreenPointToLocalPointInRectangle),
 			new LuaMethod("ScreenPointToRay", ScreenPointToRay),
@@ -16,8 +18,6 @@ public class RectTransformUtilityWrap
 			new LuaMethod("CalculateRelativeRectTransformBounds", CalculateRelativeRectTransformBounds),
 			new LuaMethod("FlipLayoutOnAxis", FlipLayoutOnAxis),
 			new LuaMethod("FlipLayoutAxes", FlipLayoutAxes),
-			new LuaMethod("PixelAdjustPoint", PixelAdjustPoint),
-			new LuaMethod("PixelAdjustRect", PixelAdjustRect),
 			new LuaMethod("New", _CreateRectTransformUtility),
 			new LuaMethod("GetClassType", GetClassType),
 		};
@@ -73,6 +73,29 @@ public class RectTransformUtilityWrap
 		}
 
 		return 0;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int PixelAdjustPoint(IntPtr L)
+	{
+		LuaScriptMgr.CheckArgsCount(L, 3);
+		Vector2 arg0 = LuaScriptMgr.GetVector2(L, 1);
+		Transform arg1 = (Transform)LuaScriptMgr.GetUnityObject(L, 2, typeof(Transform));
+		Canvas arg2 = (Canvas)LuaScriptMgr.GetUnityObject(L, 3, typeof(Canvas));
+		Vector2 o = RectTransformUtility.PixelAdjustPoint(arg0,arg1,arg2);
+		LuaScriptMgr.Push(L, o);
+		return 1;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int PixelAdjustRect(IntPtr L)
+	{
+		LuaScriptMgr.CheckArgsCount(L, 2);
+		RectTransform arg0 = (RectTransform)LuaScriptMgr.GetUnityObject(L, 1, typeof(RectTransform));
+		Canvas arg1 = (Canvas)LuaScriptMgr.GetUnityObject(L, 2, typeof(Canvas));
+		Rect o = RectTransformUtility.PixelAdjustRect(arg0,arg1);
+		LuaScriptMgr.PushValue(L, o);
+		return 1;
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
@@ -174,29 +197,6 @@ public class RectTransformUtilityWrap
 		bool arg2 = LuaScriptMgr.GetBoolean(L, 3);
 		RectTransformUtility.FlipLayoutAxes(arg0,arg1,arg2);
 		return 0;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int PixelAdjustPoint(IntPtr L)
-	{
-		LuaScriptMgr.CheckArgsCount(L, 3);
-		Vector2 arg0 = LuaScriptMgr.GetVector2(L, 1);
-		Transform arg1 = (Transform)LuaScriptMgr.GetUnityObject(L, 2, typeof(Transform));
-		Canvas arg2 = (Canvas)LuaScriptMgr.GetUnityObject(L, 3, typeof(Canvas));
-		Vector2 o = RectTransformUtility.PixelAdjustPoint(arg0,arg1,arg2);
-		LuaScriptMgr.Push(L, o);
-		return 1;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int PixelAdjustRect(IntPtr L)
-	{
-		LuaScriptMgr.CheckArgsCount(L, 2);
-		RectTransform arg0 = (RectTransform)LuaScriptMgr.GetUnityObject(L, 1, typeof(RectTransform));
-		Canvas arg1 = (Canvas)LuaScriptMgr.GetUnityObject(L, 2, typeof(Canvas));
-		Rect o = RectTransformUtility.PixelAdjustRect(arg0,arg1);
-		LuaScriptMgr.PushValue(L, o);
-		return 1;
 	}
 }
 

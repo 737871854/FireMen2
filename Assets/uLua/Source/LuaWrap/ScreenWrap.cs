@@ -19,6 +19,7 @@ public class ScreenWrap
 			new LuaField("currentResolution", get_currentResolution, null),
 			new LuaField("width", get_width, null),
 			new LuaField("height", get_height, null),
+			new LuaField("safeArea", get_safeArea, null),
 			new LuaField("dpi", get_dpi, null),
 			new LuaField("fullScreen", get_fullScreen, set_fullScreen),
 			new LuaField("autorotateToPortrait", get_autorotateToPortrait, set_autorotateToPortrait),
@@ -85,6 +86,13 @@ public class ScreenWrap
 	static int get_height(IntPtr L)
 	{
 		LuaScriptMgr.Push(L, Screen.height);
+		return 1;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_safeArea(IntPtr L)
+	{
+		LuaScriptMgr.PushValue(L, Screen.safeArea);
 		return 1;
 	}
 

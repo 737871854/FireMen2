@@ -16,6 +16,8 @@ public class AssetBundleWrap
 			new LuaMethod("LoadFromFile", LoadFromFile),
 			new LuaMethod("LoadFromMemoryAsync", LoadFromMemoryAsync),
 			new LuaMethod("LoadFromMemory", LoadFromMemory),
+			new LuaMethod("LoadFromStreamAsync", LoadFromStreamAsync),
+			new LuaMethod("LoadFromStream", LoadFromStream),
 			new LuaMethod("Contains", Contains),
 			new LuaMethod("LoadAsset", LoadAsset),
 			new LuaMethod("LoadAssetAsync", LoadAssetAsync),
@@ -259,6 +261,80 @@ public class AssetBundleWrap
 		else
 		{
 			LuaDLL.luaL_error(L, "invalid arguments to method: AssetBundle.LoadFromMemory");
+		}
+
+		return 0;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int LoadFromStreamAsync(IntPtr L)
+	{
+		int count = LuaDLL.lua_gettop(L);
+
+		if (count == 1)
+		{
+			System.IO.Stream arg0 = (System.IO.Stream)LuaScriptMgr.GetNetObject(L, 1, typeof(System.IO.Stream));
+			AssetBundleCreateRequest o = AssetBundle.LoadFromStreamAsync(arg0);
+			LuaScriptMgr.PushObject(L, o);
+			return 1;
+		}
+		else if (count == 2)
+		{
+			System.IO.Stream arg0 = (System.IO.Stream)LuaScriptMgr.GetNetObject(L, 1, typeof(System.IO.Stream));
+			uint arg1 = (uint)LuaScriptMgr.GetNumber(L, 2);
+			AssetBundleCreateRequest o = AssetBundle.LoadFromStreamAsync(arg0,arg1);
+			LuaScriptMgr.PushObject(L, o);
+			return 1;
+		}
+		else if (count == 3)
+		{
+			System.IO.Stream arg0 = (System.IO.Stream)LuaScriptMgr.GetNetObject(L, 1, typeof(System.IO.Stream));
+			uint arg1 = (uint)LuaScriptMgr.GetNumber(L, 2);
+			uint arg2 = (uint)LuaScriptMgr.GetNumber(L, 3);
+			AssetBundleCreateRequest o = AssetBundle.LoadFromStreamAsync(arg0,arg1,arg2);
+			LuaScriptMgr.PushObject(L, o);
+			return 1;
+		}
+		else
+		{
+			LuaDLL.luaL_error(L, "invalid arguments to method: AssetBundle.LoadFromStreamAsync");
+		}
+
+		return 0;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int LoadFromStream(IntPtr L)
+	{
+		int count = LuaDLL.lua_gettop(L);
+
+		if (count == 1)
+		{
+			System.IO.Stream arg0 = (System.IO.Stream)LuaScriptMgr.GetNetObject(L, 1, typeof(System.IO.Stream));
+			AssetBundle o = AssetBundle.LoadFromStream(arg0);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 2)
+		{
+			System.IO.Stream arg0 = (System.IO.Stream)LuaScriptMgr.GetNetObject(L, 1, typeof(System.IO.Stream));
+			uint arg1 = (uint)LuaScriptMgr.GetNumber(L, 2);
+			AssetBundle o = AssetBundle.LoadFromStream(arg0,arg1);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 3)
+		{
+			System.IO.Stream arg0 = (System.IO.Stream)LuaScriptMgr.GetNetObject(L, 1, typeof(System.IO.Stream));
+			uint arg1 = (uint)LuaScriptMgr.GetNumber(L, 2);
+			uint arg2 = (uint)LuaScriptMgr.GetNumber(L, 3);
+			AssetBundle o = AssetBundle.LoadFromStream(arg0,arg1,arg2);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else
+		{
+			LuaDLL.luaL_error(L, "invalid arguments to method: AssetBundle.LoadFromStream");
 		}
 
 		return 0;

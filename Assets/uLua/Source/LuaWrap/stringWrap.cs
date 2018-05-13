@@ -8,6 +8,10 @@ public class stringWrap
 	{
 		LuaMethod[] regs = new LuaMethod[]
 		{
+			new LuaMethod("IndexOf", IndexOf),
+			new LuaMethod("IndexOfAny", IndexOfAny),
+			new LuaMethod("LastIndexOf", LastIndexOf),
+			new LuaMethod("LastIndexOfAny", LastIndexOfAny),
 			new LuaMethod("Join", Join),
 			new LuaMethod("CopyTo", CopyTo),
 			new LuaMethod("ToCharArray", ToCharArray),
@@ -26,10 +30,6 @@ public class stringWrap
 			new LuaMethod("CompareOrdinal", CompareOrdinal),
 			new LuaMethod("Contains", Contains),
 			new LuaMethod("EndsWith", EndsWith),
-			new LuaMethod("IndexOf", IndexOf),
-			new LuaMethod("IndexOfAny", IndexOfAny),
-			new LuaMethod("LastIndexOf", LastIndexOf),
-			new LuaMethod("LastIndexOfAny", LastIndexOfAny),
 			new LuaMethod("PadLeft", PadLeft),
 			new LuaMethod("PadRight", PadRight),
 			new LuaMethod("StartsWith", StartsWith),
@@ -139,6 +139,280 @@ public class stringWrap
 		}
 
 		return 1;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int IndexOf(IntPtr L)
+	{
+		int count = LuaDLL.lua_gettop(L);
+
+		if (count == 2 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
+			int o = obj.IndexOf(arg0);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 2 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			int o = obj.IndexOf(arg0);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
+			int o = obj.IndexOf(arg0,arg1);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char), typeof(int)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
+			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
+			int o = obj.IndexOf(arg0,arg1);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(StringComparison)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			StringComparison arg1 = (StringComparison)LuaScriptMgr.GetLuaObject(L, 3);
+			int o = obj.IndexOf(arg0,arg1);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int), typeof(StringComparison)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
+			StringComparison arg2 = (StringComparison)LuaScriptMgr.GetLuaObject(L, 4);
+			int o = obj.IndexOf(arg0,arg1,arg2);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int), typeof(int)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
+			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
+			int o = obj.IndexOf(arg0,arg1,arg2);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char), typeof(int), typeof(int)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
+			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
+			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
+			int o = obj.IndexOf(arg0,arg1,arg2);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 5)
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetLuaString(L, 2);
+			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
+			int arg2 = (int)LuaScriptMgr.GetNumber(L, 4);
+			StringComparison arg3 = (StringComparison)LuaScriptMgr.GetNetObject(L, 5, typeof(StringComparison));
+			int o = obj.IndexOf(arg0,arg1,arg2,arg3);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else
+		{
+			LuaDLL.luaL_error(L, "invalid arguments to method: string.IndexOf");
+		}
+
+		return 0;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int IndexOfAny(IntPtr L)
+	{
+		int count = LuaDLL.lua_gettop(L);
+
+		if (count == 2)
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
+			int o = obj.IndexOfAny(objs0);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 3)
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
+			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
+			int o = obj.IndexOfAny(objs0,arg1);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 4)
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
+			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
+			int arg2 = (int)LuaScriptMgr.GetNumber(L, 4);
+			int o = obj.IndexOfAny(objs0,arg1,arg2);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else
+		{
+			LuaDLL.luaL_error(L, "invalid arguments to method: string.IndexOfAny");
+		}
+
+		return 0;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int LastIndexOf(IntPtr L)
+	{
+		int count = LuaDLL.lua_gettop(L);
+
+		if (count == 2 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
+			int o = obj.LastIndexOf(arg0);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 2 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			int o = obj.LastIndexOf(arg0);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
+			int o = obj.LastIndexOf(arg0,arg1);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char), typeof(int)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
+			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
+			int o = obj.LastIndexOf(arg0,arg1);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(StringComparison)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			StringComparison arg1 = (StringComparison)LuaScriptMgr.GetLuaObject(L, 3);
+			int o = obj.LastIndexOf(arg0,arg1);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int), typeof(StringComparison)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
+			StringComparison arg2 = (StringComparison)LuaScriptMgr.GetLuaObject(L, 4);
+			int o = obj.LastIndexOf(arg0,arg1,arg2);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int), typeof(int)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetString(L, 2);
+			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
+			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
+			int o = obj.LastIndexOf(arg0,arg1,arg2);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char), typeof(int), typeof(int)))
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
+			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
+			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
+			int o = obj.LastIndexOf(arg0,arg1,arg2);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 5)
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			string arg0 = LuaScriptMgr.GetLuaString(L, 2);
+			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
+			int arg2 = (int)LuaScriptMgr.GetNumber(L, 4);
+			StringComparison arg3 = (StringComparison)LuaScriptMgr.GetNetObject(L, 5, typeof(StringComparison));
+			int o = obj.LastIndexOf(arg0,arg1,arg2,arg3);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else
+		{
+			LuaDLL.luaL_error(L, "invalid arguments to method: string.LastIndexOf");
+		}
+
+		return 0;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int LastIndexOfAny(IntPtr L)
+	{
+		int count = LuaDLL.lua_gettop(L);
+
+		if (count == 2)
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
+			int o = obj.LastIndexOfAny(objs0);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 3)
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
+			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
+			int o = obj.LastIndexOfAny(objs0,arg1);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 4)
+		{
+			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
+			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
+			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
+			int arg2 = (int)LuaScriptMgr.GetNumber(L, 4);
+			int o = obj.LastIndexOfAny(objs0,arg1,arg2);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else
+		{
+			LuaDLL.luaL_error(L, "invalid arguments to method: string.LastIndexOfAny");
+		}
+
+		return 0;
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
@@ -702,280 +976,6 @@ public class stringWrap
 		else
 		{
 			LuaDLL.luaL_error(L, "invalid arguments to method: string.EndsWith");
-		}
-
-		return 0;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int IndexOf(IntPtr L)
-	{
-		int count = LuaDLL.lua_gettop(L);
-
-		if (count == 2 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
-			int o = obj.IndexOf(arg0);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 2 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
-			int o = obj.IndexOf(arg0);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char), typeof(int)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
-			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
-			int o = obj.IndexOf(arg0,arg1);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
-			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
-			int o = obj.IndexOf(arg0,arg1);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(StringComparison)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
-			StringComparison arg1 = (StringComparison)LuaScriptMgr.GetLuaObject(L, 3);
-			int o = obj.IndexOf(arg0,arg1);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int), typeof(StringComparison)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
-			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
-			StringComparison arg2 = (StringComparison)LuaScriptMgr.GetLuaObject(L, 4);
-			int o = obj.IndexOf(arg0,arg1,arg2);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int), typeof(int)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
-			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
-			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
-			int o = obj.IndexOf(arg0,arg1,arg2);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char), typeof(int), typeof(int)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
-			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
-			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
-			int o = obj.IndexOf(arg0,arg1,arg2);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 5)
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetLuaString(L, 2);
-			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
-			int arg2 = (int)LuaScriptMgr.GetNumber(L, 4);
-			StringComparison arg3 = (StringComparison)LuaScriptMgr.GetNetObject(L, 5, typeof(StringComparison));
-			int o = obj.IndexOf(arg0,arg1,arg2,arg3);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else
-		{
-			LuaDLL.luaL_error(L, "invalid arguments to method: string.IndexOf");
-		}
-
-		return 0;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int IndexOfAny(IntPtr L)
-	{
-		int count = LuaDLL.lua_gettop(L);
-
-		if (count == 2)
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
-			int o = obj.IndexOfAny(objs0);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 3)
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
-			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
-			int o = obj.IndexOfAny(objs0,arg1);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 4)
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
-			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
-			int arg2 = (int)LuaScriptMgr.GetNumber(L, 4);
-			int o = obj.IndexOfAny(objs0,arg1,arg2);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else
-		{
-			LuaDLL.luaL_error(L, "invalid arguments to method: string.IndexOfAny");
-		}
-
-		return 0;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int LastIndexOf(IntPtr L)
-	{
-		int count = LuaDLL.lua_gettop(L);
-
-		if (count == 2 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
-			int o = obj.LastIndexOf(arg0);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 2 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
-			int o = obj.LastIndexOf(arg0);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char), typeof(int)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
-			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
-			int o = obj.LastIndexOf(arg0,arg1);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
-			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
-			int o = obj.LastIndexOf(arg0,arg1);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(StringComparison)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
-			StringComparison arg1 = (StringComparison)LuaScriptMgr.GetLuaObject(L, 3);
-			int o = obj.LastIndexOf(arg0,arg1);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int), typeof(StringComparison)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
-			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
-			StringComparison arg2 = (StringComparison)LuaScriptMgr.GetLuaObject(L, 4);
-			int o = obj.LastIndexOf(arg0,arg1,arg2);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(string), typeof(int), typeof(int)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetString(L, 2);
-			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
-			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
-			int o = obj.LastIndexOf(arg0,arg1,arg2);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 4 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(char), typeof(int), typeof(int)))
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char arg0 = (char)LuaDLL.lua_tonumber(L, 2);
-			int arg1 = (int)LuaDLL.lua_tonumber(L, 3);
-			int arg2 = (int)LuaDLL.lua_tonumber(L, 4);
-			int o = obj.LastIndexOf(arg0,arg1,arg2);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 5)
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			string arg0 = LuaScriptMgr.GetLuaString(L, 2);
-			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
-			int arg2 = (int)LuaScriptMgr.GetNumber(L, 4);
-			StringComparison arg3 = (StringComparison)LuaScriptMgr.GetNetObject(L, 5, typeof(StringComparison));
-			int o = obj.LastIndexOf(arg0,arg1,arg2,arg3);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else
-		{
-			LuaDLL.luaL_error(L, "invalid arguments to method: string.LastIndexOf");
-		}
-
-		return 0;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int LastIndexOfAny(IntPtr L)
-	{
-		int count = LuaDLL.lua_gettop(L);
-
-		if (count == 2)
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
-			int o = obj.LastIndexOfAny(objs0);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 3)
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
-			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
-			int o = obj.LastIndexOfAny(objs0,arg1);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 4)
-		{
-			string obj = (string)LuaScriptMgr.GetNetObjectSelf(L, 1, "string");
-			char[] objs0 = LuaScriptMgr.GetArrayNumber<char>(L, 2);
-			int arg1 = (int)LuaScriptMgr.GetNumber(L, 3);
-			int arg2 = (int)LuaScriptMgr.GetNumber(L, 4);
-			int o = obj.LastIndexOfAny(objs0,arg1,arg2);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else
-		{
-			LuaDLL.luaL_error(L, "invalid arguments to method: string.LastIndexOfAny");
 		}
 
 		return 0;

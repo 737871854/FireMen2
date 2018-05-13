@@ -16,7 +16,6 @@ public class ApplicationWrap
 			new LuaMethod("GetBuildTags", GetBuildTags),
 			new LuaMethod("SetBuildTags", SetBuildTags),
 			new LuaMethod("HasProLicense", HasProLicense),
-			new LuaMethod("ExternalCall", ExternalCall),
 			new LuaMethod("RequestAdvertisingIdentifierAsync", RequestAdvertisingIdentifierAsync),
 			new LuaMethod("OpenURL", OpenURL),
 			new LuaMethod("GetStackTraceLogType", GetStackTraceLogType),
@@ -33,7 +32,6 @@ public class ApplicationWrap
 			new LuaField("isPlaying", get_isPlaying, null),
 			new LuaField("isFocused", get_isFocused, null),
 			new LuaField("isEditor", get_isEditor, null),
-			new LuaField("isWebPlayer", get_isWebPlayer, null),
 			new LuaField("platform", get_platform, null),
 			new LuaField("buildGUID", get_buildGUID, null),
 			new LuaField("isMobilePlatform", get_isMobilePlatform, null),
@@ -43,7 +41,6 @@ public class ApplicationWrap
 			new LuaField("streamingAssetsPath", get_streamingAssetsPath, null),
 			new LuaField("persistentDataPath", get_persistentDataPath, null),
 			new LuaField("temporaryCachePath", get_temporaryCachePath, null),
-			new LuaField("srcValue", get_srcValue, null),
 			new LuaField("absoluteURL", get_absoluteURL, null),
 			new LuaField("unityVersion", get_unityVersion, null),
 			new LuaField("version", get_version, null),
@@ -122,13 +119,6 @@ public class ApplicationWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int get_isWebPlayer(IntPtr L)
-	{
-		LuaScriptMgr.Push(L, Application.isWebPlayer);
-		return 1;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int get_platform(IntPtr L)
 	{
 		LuaScriptMgr.Push(L, Application.platform);
@@ -188,13 +178,6 @@ public class ApplicationWrap
 	static int get_temporaryCachePath(IntPtr L)
 	{
 		LuaScriptMgr.Push(L, Application.temporaryCachePath);
-		return 1;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int get_srcValue(IntPtr L)
-	{
-		LuaScriptMgr.Push(L, Application.srcValue);
 		return 1;
 	}
 
@@ -434,16 +417,6 @@ public class ApplicationWrap
 		bool o = Application.HasProLicense();
 		LuaScriptMgr.Push(L, o);
 		return 1;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int ExternalCall(IntPtr L)
-	{
-		int count = LuaDLL.lua_gettop(L);
-		string arg0 = LuaScriptMgr.GetLuaString(L, 1);
-		object[] objs1 = LuaScriptMgr.GetParamsObject(L, 2, count - 1);
-		Application.ExternalCall(arg0,objs1);
-		return 0;
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]

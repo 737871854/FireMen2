@@ -42,6 +42,7 @@ public class RendererWrap
 			new LuaField("probeAnchor", get_probeAnchor, set_probeAnchor),
 			new LuaField("reflectionProbeUsage", get_reflectionProbeUsage, set_reflectionProbeUsage),
 			new LuaField("sortingLayerName", get_sortingLayerName, set_sortingLayerName),
+			new LuaField("allowOcclusionWhenDynamic", get_allowOcclusionWhenDynamic, set_allowOcclusionWhenDynamic),
 			new LuaField("sortingLayerID", get_sortingLayerID, set_sortingLayerID),
 			new LuaField("sortingOrder", get_sortingOrder, set_sortingOrder),
 		};
@@ -606,6 +607,30 @@ public class RendererWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_allowOcclusionWhenDynamic(IntPtr L)
+	{
+		object o = LuaScriptMgr.GetLuaObject(L, 1);
+		Renderer obj = (Renderer)o;
+
+		if (obj == null)
+		{
+			LuaTypes types = LuaDLL.lua_type(L, 1);
+
+			if (types == LuaTypes.LUA_TTABLE)
+			{
+				LuaDLL.luaL_error(L, "unknown member name allowOcclusionWhenDynamic");
+			}
+			else
+			{
+				LuaDLL.luaL_error(L, "attempt to index allowOcclusionWhenDynamic on a nil value");
+			}
+		}
+
+		LuaScriptMgr.Push(L, obj.allowOcclusionWhenDynamic);
+		return 1;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int get_sortingLayerID(IntPtr L)
 	{
 		object o = LuaScriptMgr.GetLuaObject(L, 1);
@@ -1058,6 +1083,30 @@ public class RendererWrap
 		}
 
 		obj.sortingLayerName = LuaScriptMgr.GetString(L, 3);
+		return 0;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int set_allowOcclusionWhenDynamic(IntPtr L)
+	{
+		object o = LuaScriptMgr.GetLuaObject(L, 1);
+		Renderer obj = (Renderer)o;
+
+		if (obj == null)
+		{
+			LuaTypes types = LuaDLL.lua_type(L, 1);
+
+			if (types == LuaTypes.LUA_TTABLE)
+			{
+				LuaDLL.luaL_error(L, "unknown member name allowOcclusionWhenDynamic");
+			}
+			else
+			{
+				LuaDLL.luaL_error(L, "attempt to index allowOcclusionWhenDynamic on a nil value");
+			}
+		}
+
+		obj.allowOcclusionWhenDynamic = LuaScriptMgr.GetBoolean(L, 3);
 		return 0;
 	}
 

@@ -8,6 +8,8 @@ public class TypeWrap
 		LuaMethod[] regs = new LuaMethod[]
 		{
 			new LuaMethod("GetType", GetType),
+			new LuaMethod("ReflectionOnlyGetType", ReflectionOnlyGetType),
+			new LuaMethod("GetTypeFromHandle", GetTypeFromHandle),
 			new LuaMethod("MakePointerType", MakePointerType),
 			new LuaMethod("MakeByRefType", MakeByRefType),
 			new LuaMethod("MakeArrayType", MakeArrayType),
@@ -55,8 +57,6 @@ public class TypeWrap
 			new LuaMethod("Equals", Equals),
 			new LuaMethod("GetHashCode", GetHashCode),
 			new LuaMethod("GetInterfaceMap", GetInterfaceMap),
-			new LuaMethod("ReflectionOnlyGetType", ReflectionOnlyGetType),
-			new LuaMethod("GetTypeFromHandle", GetTypeFromHandle),
 			new LuaMethod("New", _CreateType),
 			new LuaMethod("GetClassType", GetClassType),
 			new LuaMethod("__tostring", Lua_ToString),
@@ -1664,17 +1664,17 @@ public class TypeWrap
 	{
 		int count = LuaDLL.lua_gettop(L);
 
-		if (count == 1)
-		{
-			Type obj = LuaScriptMgr.GetTypeObject(L, 1);
-			Type o = obj.GetType();
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 1 && LuaScriptMgr.CheckTypes(L, 1, typeof(string)))
+		if (count == 1 && LuaScriptMgr.CheckTypes(L, 1, typeof(string)))
 		{
 			string arg0 = LuaScriptMgr.GetString(L, 1);
 			Type o = Type.GetType(arg0);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 1 && LuaScriptMgr.CheckTypes(L, 1, typeof(Type)))
+		{
+			Type obj = LuaScriptMgr.GetTypeObject(L, 1);
+			Type o = obj.GetType();
 			LuaScriptMgr.Push(L, o);
 			return 1;
 		}
@@ -1683,6 +1683,15 @@ public class TypeWrap
 			string arg0 = LuaScriptMgr.GetLuaString(L, 1);
 			bool arg1 = LuaScriptMgr.GetBoolean(L, 2);
 			Type o = Type.GetType(arg0,arg1);
+			LuaScriptMgr.Push(L, o);
+			return 1;
+		}
+		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(bool), typeof(bool)))
+		{
+			string arg0 = LuaScriptMgr.GetString(L, 1);
+			bool arg1 = LuaDLL.lua_toboolean(L, 2);
+			bool arg2 = LuaDLL.lua_toboolean(L, 3);
+			Type o = Type.GetType(arg0,arg1,arg2);
 			LuaScriptMgr.Push(L, o);
 			return 1;
 		}
@@ -1733,15 +1742,6 @@ public class TypeWrap
 				};
 			}
 
-			Type o = Type.GetType(arg0,arg1,arg2);
-			LuaScriptMgr.Push(L, o);
-			return 1;
-		}
-		else if (count == 3 && LuaScriptMgr.CheckTypes(L, 1, typeof(string), typeof(bool), typeof(bool)))
-		{
-			string arg0 = LuaScriptMgr.GetString(L, 1);
-			bool arg1 = LuaDLL.lua_toboolean(L, 2);
-			bool arg2 = LuaDLL.lua_toboolean(L, 3);
 			Type o = Type.GetType(arg0,arg1,arg2);
 			LuaScriptMgr.Push(L, o);
 			return 1;
@@ -1857,6 +1857,28 @@ public class TypeWrap
 		}
 
 		return 0;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int ReflectionOnlyGetType(IntPtr L)
+	{
+		LuaScriptMgr.CheckArgsCount(L, 3);
+		string arg0 = LuaScriptMgr.GetLuaString(L, 1);
+		bool arg1 = LuaScriptMgr.GetBoolean(L, 2);
+		bool arg2 = LuaScriptMgr.GetBoolean(L, 3);
+		Type o = Type.ReflectionOnlyGetType(arg0,arg1,arg2);
+		LuaScriptMgr.Push(L, o);
+		return 1;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int GetTypeFromHandle(IntPtr L)
+	{
+		LuaScriptMgr.CheckArgsCount(L, 1);
+		RuntimeTypeHandle arg0 = (RuntimeTypeHandle)LuaScriptMgr.GetNetObject(L, 1, typeof(RuntimeTypeHandle));
+		Type o = Type.GetTypeFromHandle(arg0);
+		LuaScriptMgr.Push(L, o);
+		return 1;
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
@@ -2949,28 +2971,6 @@ public class TypeWrap
 		Type arg0 = LuaScriptMgr.GetTypeObject(L, 2);
 		System.Reflection.InterfaceMapping o = obj.GetInterfaceMap(arg0);
 		LuaScriptMgr.PushValue(L, o);
-		return 1;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int ReflectionOnlyGetType(IntPtr L)
-	{
-		LuaScriptMgr.CheckArgsCount(L, 3);
-		string arg0 = LuaScriptMgr.GetLuaString(L, 1);
-		bool arg1 = LuaScriptMgr.GetBoolean(L, 2);
-		bool arg2 = LuaScriptMgr.GetBoolean(L, 3);
-		Type o = Type.ReflectionOnlyGetType(arg0,arg1,arg2);
-		LuaScriptMgr.Push(L, o);
-		return 1;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int GetTypeFromHandle(IntPtr L)
-	{
-		LuaScriptMgr.CheckArgsCount(L, 1);
-		RuntimeTypeHandle arg0 = (RuntimeTypeHandle)LuaScriptMgr.GetNetObject(L, 1, typeof(RuntimeTypeHandle));
-		Type o = Type.GetTypeFromHandle(arg0);
-		LuaScriptMgr.Push(L, o);
 		return 1;
 	}
 }

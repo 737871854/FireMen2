@@ -36,6 +36,7 @@ public class PhysicsWrap
 			new LuaMethod("ComputePenetration", ComputePenetration),
 			new LuaMethod("ClosestPoint", ClosestPoint),
 			new LuaMethod("Simulate", Simulate),
+			new LuaMethod("SyncTransforms", SyncTransforms),
 			new LuaMethod("New", _CreatePhysics),
 			new LuaMethod("GetClassType", GetClassType),
 		};
@@ -54,6 +55,7 @@ public class PhysicsWrap
 			new LuaField("queriesHitTriggers", get_queriesHitTriggers, set_queriesHitTriggers),
 			new LuaField("queriesHitBackfaces", get_queriesHitBackfaces, set_queriesHitBackfaces),
 			new LuaField("autoSimulation", get_autoSimulation, set_autoSimulation),
+			new LuaField("autoSyncTransforms", get_autoSyncTransforms, set_autoSyncTransforms),
 		};
 
 		LuaScriptMgr.RegisterLib(L, "UnityEngine.Physics", typeof(Physics), regs, fields, typeof(object));
@@ -172,6 +174,13 @@ public class PhysicsWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_autoSyncTransforms(IntPtr L)
+	{
+		LuaScriptMgr.Push(L, Physics.autoSyncTransforms);
+		return 1;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int set_gravity(IntPtr L)
 	{
 		Physics.gravity = LuaScriptMgr.GetVector3(L, 3);
@@ -231,6 +240,13 @@ public class PhysicsWrap
 	static int set_autoSimulation(IntPtr L)
 	{
 		Physics.autoSimulation = LuaScriptMgr.GetBoolean(L, 3);
+		return 0;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int set_autoSyncTransforms(IntPtr L)
+	{
+		Physics.autoSyncTransforms = LuaScriptMgr.GetBoolean(L, 3);
 		return 0;
 	}
 
@@ -2025,6 +2041,14 @@ public class PhysicsWrap
 		LuaScriptMgr.CheckArgsCount(L, 1);
 		float arg0 = (float)LuaScriptMgr.GetNumber(L, 1);
 		Physics.Simulate(arg0);
+		return 0;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int SyncTransforms(IntPtr L)
+	{
+		LuaScriptMgr.CheckArgsCount(L, 0);
+		Physics.SyncTransforms();
 		return 0;
 	}
 }

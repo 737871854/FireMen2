@@ -96,13 +96,13 @@ public class CameraWrap
 			new LuaField("projectionMatrix", get_projectionMatrix, set_projectionMatrix),
 			new LuaField("nonJitteredProjectionMatrix", get_nonJitteredProjectionMatrix, set_nonJitteredProjectionMatrix),
 			new LuaField("useJitteredProjectionMatrixForTransparentRendering", get_useJitteredProjectionMatrixForTransparentRendering, set_useJitteredProjectionMatrixForTransparentRendering),
+			new LuaField("previousViewProjectionMatrix", get_previousViewProjectionMatrix, null),
 			new LuaField("velocity", get_velocity, null),
 			new LuaField("clearFlags", get_clearFlags, set_clearFlags),
 			new LuaField("stereoEnabled", get_stereoEnabled, null),
 			new LuaField("stereoSeparation", get_stereoSeparation, set_stereoSeparation),
 			new LuaField("stereoConvergence", get_stereoConvergence, set_stereoConvergence),
 			new LuaField("cameraType", get_cameraType, set_cameraType),
-			new LuaField("stereoMirrorMode", get_stereoMirrorMode, set_stereoMirrorMode),
 			new LuaField("stereoTargetEye", get_stereoTargetEye, set_stereoTargetEye),
 			new LuaField("areVRStereoViewMatricesWithinSingleCullTolerance", get_areVRStereoViewMatricesWithinSingleCullTolerance, null),
 			new LuaField("stereoActiveEye", get_stereoActiveEye, null),
@@ -893,6 +893,30 @@ public class CameraWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_previousViewProjectionMatrix(IntPtr L)
+	{
+		object o = LuaScriptMgr.GetLuaObject(L, 1);
+		Camera obj = (Camera)o;
+
+		if (obj == null)
+		{
+			LuaTypes types = LuaDLL.lua_type(L, 1);
+
+			if (types == LuaTypes.LUA_TTABLE)
+			{
+				LuaDLL.luaL_error(L, "unknown member name previousViewProjectionMatrix");
+			}
+			else
+			{
+				LuaDLL.luaL_error(L, "attempt to index previousViewProjectionMatrix on a nil value");
+			}
+		}
+
+		LuaScriptMgr.PushValue(L, obj.previousViewProjectionMatrix);
+		return 1;
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int get_velocity(IntPtr L)
 	{
 		object o = LuaScriptMgr.GetLuaObject(L, 1);
@@ -1033,30 +1057,6 @@ public class CameraWrap
 		}
 
 		LuaScriptMgr.Push(L, obj.cameraType);
-		return 1;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int get_stereoMirrorMode(IntPtr L)
-	{
-		object o = LuaScriptMgr.GetLuaObject(L, 1);
-		Camera obj = (Camera)o;
-
-		if (obj == null)
-		{
-			LuaTypes types = LuaDLL.lua_type(L, 1);
-
-			if (types == LuaTypes.LUA_TTABLE)
-			{
-				LuaDLL.luaL_error(L, "unknown member name stereoMirrorMode");
-			}
-			else
-			{
-				LuaDLL.luaL_error(L, "attempt to index stereoMirrorMode on a nil value");
-			}
-		}
-
-		LuaScriptMgr.Push(L, obj.stereoMirrorMode);
 		return 1;
 	}
 
@@ -2114,30 +2114,6 @@ public class CameraWrap
 		}
 
 		obj.cameraType = (CameraType)LuaScriptMgr.GetNetObject(L, 3, typeof(CameraType));
-		return 0;
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int set_stereoMirrorMode(IntPtr L)
-	{
-		object o = LuaScriptMgr.GetLuaObject(L, 1);
-		Camera obj = (Camera)o;
-
-		if (obj == null)
-		{
-			LuaTypes types = LuaDLL.lua_type(L, 1);
-
-			if (types == LuaTypes.LUA_TTABLE)
-			{
-				LuaDLL.luaL_error(L, "unknown member name stereoMirrorMode");
-			}
-			else
-			{
-				LuaDLL.luaL_error(L, "attempt to index stereoMirrorMode on a nil value");
-			}
-		}
-
-		obj.stereoMirrorMode = LuaScriptMgr.GetBoolean(L, 3);
 		return 0;
 	}
 
