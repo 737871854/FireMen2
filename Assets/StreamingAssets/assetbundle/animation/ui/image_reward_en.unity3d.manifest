@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3786269036
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1587c858a34bbd4bb6c9c67d12072735
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dbc44b7a0b7afe8439101dc610de329a
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/animation/ui/Image_Reward_EN/WaterReward_EN.anim
+- Assets/RawRes/animation/ui/Image_Reward_EN/Image_Reward_EN.controller
+Dependencies: []

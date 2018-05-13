@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2879065391
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 84c5747b7fc84460400376dff90310b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward11.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward7.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward0.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward10.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward2.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward5.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward3.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward1.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward6.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward8.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward9.png
+- Assets/RawRes/ui/time_reward_ch/Frame_TimeReward4.png
+Dependencies: []

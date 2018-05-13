@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 257447609
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c38b9855232f158d66d5405dae354087
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/ui/battle/Frame_TargetShuiZhu4.png
+- Assets/RawRes/ui/battle/Frame_TargetShuiZhu2.png
+- Assets/RawRes/ui/battle/Frame_TargetShuiZhu0.png
+- Assets/RawRes/ui/battle/Frame_TargetShuiZhu1.png
+- Assets/RawRes/ui/battle/Frame_TargetShuiZhu3.png
+Dependencies: []

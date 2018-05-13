@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3782123501
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9660081478824b3d872da0c14172e33e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d068741ae817c9b5c92580f37de87e3
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/materials/cityzen/BabyCitizen.mat
+- Assets/RawRes/materials/cityzen/GirlCitizen.mat
+- Assets/RawRes/materials/cityzen/BoyCitizen.mat
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/shaders/unlit_alpha_test_cull_off.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/textures/cityzen.unity3d

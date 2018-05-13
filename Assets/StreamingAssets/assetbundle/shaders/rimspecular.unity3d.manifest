@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1313394127
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0c3d0f3793e677c44247361108797fe5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bf45a693cba34bf6690ae7a121f21f9c
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/shaders/RimSpecular.shader
+Dependencies: []

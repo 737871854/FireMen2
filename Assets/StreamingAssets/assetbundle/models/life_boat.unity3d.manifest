@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 578880770
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cc1bccbb73602b17e378e1209a521274
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c8470e680e304e40bf8eb10878f45aa4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/life_boat/jiushengting.fbx
+Dependencies: []

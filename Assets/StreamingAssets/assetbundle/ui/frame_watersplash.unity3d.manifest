@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3936135800
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb86276e61143b517287093aab353be3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/ui/frame_waterSplash/Frame_WaterSplash0.png
+- Assets/RawRes/ui/frame_waterSplash/Frame_WaterSplash8.png
+- Assets/RawRes/ui/frame_waterSplash/Frame_WaterSplash2.png
+- Assets/RawRes/ui/frame_waterSplash/Frame_WaterSplash1.png
+- Assets/RawRes/ui/frame_waterSplash/Frame_WaterSplash6.png
+- Assets/RawRes/ui/frame_waterSplash/Frame_WaterSplash4.png
+- Assets/RawRes/ui/frame_waterSplash/Frame_WaterSplash3.png
+- Assets/RawRes/ui/frame_waterSplash/Frame_WaterSplash7.png
+- Assets/RawRes/ui/frame_waterSplash/Frame_WaterSplash5.png
+- Assets/RawRes/ui/frame_waterSplash/Frame_WaterSplash9.png
+Dependencies: []

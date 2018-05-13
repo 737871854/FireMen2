@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 832738635
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 510d6613794bb3c33632d79dfb06f418
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d068741ae817c9b5c92580f37de87e3
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/materials/dragon/jingyinglong_CB_mat.mat
+- Assets/RawRes/materials/dragon/jingyinglong.mat
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/shaders/unlit_alpha_test_cull_off.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/textures/dragon.unity3d

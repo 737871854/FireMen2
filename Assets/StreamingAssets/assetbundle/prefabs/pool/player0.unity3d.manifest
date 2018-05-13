@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 2069654253
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f42f07eca573bda5692c0eff79f196e5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 99536ec8d292fd2eaf67ace193bd6d12
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/player0.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/player.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/models/player.unity3d

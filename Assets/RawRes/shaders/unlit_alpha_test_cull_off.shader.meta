@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0c70c60c90e599046aed466e9f99b04a
+timeCreated: 1436794419
+licenseType: Pro
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: shaders/unlit_alpha_test_cull_off.unity3d
+  assetBundleVariant: 

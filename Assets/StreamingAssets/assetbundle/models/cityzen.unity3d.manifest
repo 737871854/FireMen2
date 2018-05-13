@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 2013755768
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 420ba644e7ac957025785f58db9f2383
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fb0397dd12a805753eee98e740b25e57
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/cityzen/BoyCitizen@run.FBX
+- Assets/RawRes/models/cityzen/BabyCitizen.FBX
+- Assets/RawRes/models/cityzen/BabyCitizen@run.FBX
+- Assets/RawRes/models/cityzen/BabyCitizen@onladder.FBX
+- Assets/RawRes/models/cityzen/BoyCitizen@run2.FBX
+- Assets/RawRes/models/cityzen/BoyCitizen@onladder.FBX
+- Assets/RawRes/models/cityzen/BabyCitizen@help.FBX
+- Assets/RawRes/models/cityzen/GirlCitizenController.controller
+- Assets/RawRes/models/cityzen/BabyCitizen@ladder.FBX
+- Assets/RawRes/models/cityzen/GirlCitizen@onladder.FBX
+- Assets/RawRes/models/cityzen/GirlCitizen@run.FBX
+- Assets/RawRes/models/cityzen/GirlCitizen@help.FBX
+- Assets/RawRes/models/cityzen/GirlCitizen.FBX
+- Assets/RawRes/models/cityzen/BoyCitizen@ladder.FBX
+- Assets/RawRes/models/cityzen/BoyCitizenController.controller
+- Assets/RawRes/models/cityzen/GirlCitizen@ladder.FBX
+- Assets/RawRes/models/cityzen/BoyCitizen.FBX
+- Assets/RawRes/models/cityzen/BoyCitizen@run1.FBX
+- Assets/RawRes/models/cityzen/BabyCitizenController.controller
+- Assets/RawRes/models/cityzen/BoyCitizen@help.FBX
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/cityzen.unity3d

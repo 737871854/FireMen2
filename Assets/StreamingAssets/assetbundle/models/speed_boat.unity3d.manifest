@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 187648982
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 810c3c63ce8b1889a29384102ce53d4b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2dd3c2f980905ecb14bcd04f4803835a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/speed_boat/xiaofangkuaiting.fbx
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/speed_boat.unity3d

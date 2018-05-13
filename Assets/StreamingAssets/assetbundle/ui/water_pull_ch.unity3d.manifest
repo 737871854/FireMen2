@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3557496660
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 27044044ea14f9b010b8e5f7441ddf4f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/ui/water_pull_ch/Frame_WaterPullHint1.png
+- Assets/RawRes/ui/water_pull_ch/Frame_WaterPullHint2.png
+Dependencies: []

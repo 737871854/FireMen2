@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 863749874
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f1166b8a3df4d86c1426426642123aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecd48a33f0a5d27752dfbaf86f2e1ab5
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/animation/ui/WaterHandleUIBubble/WaterHandleUIBubble.anim
+- Assets/RawRes/animation/ui/WaterHandleUIBubble/WaterHandleUIBubbleController.controller
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/water_bubble.unity3d

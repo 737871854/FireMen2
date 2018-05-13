@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 1771450393
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b1d0d7e0b4265cb007d0577d0acb25ab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7f65405bfbdcfe4dfcd8b80002572af8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/coin.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/life_boat.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/prop.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/models/prop.unity3d

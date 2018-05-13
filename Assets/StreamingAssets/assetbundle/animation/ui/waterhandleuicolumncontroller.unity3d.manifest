@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 413007139
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 40716a603dccbda81dffc00cb3f1599a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecd48a33f0a5d27752dfbaf86f2e1ab5
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/animation/ui/WaterHandleUIColumnController/WaterHandleUIColumnAdding.anim
+- Assets/RawRes/animation/ui/WaterHandleUIColumnController/WaterHandleUIColumnController.controller
+- Assets/RawRes/animation/ui/WaterHandleUIColumnController/WaterHandleUIColumn.anim
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/water_column.unity3d

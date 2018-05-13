@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 622709880
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d7997742d701c1bab018bd5516eab003
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: de044d5a68952ce94be87223b751d645
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/materials/life_boat/coin.physicMaterial
+- Assets/RawRes/materials/life_boat/lifeBoat.physicMaterial
+- Assets/RawRes/materials/life_boat/jiushengting_jiushengquan.mat
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/shaders/unlit_alpha_test_cull_off.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/textures/life_boat.unity3d

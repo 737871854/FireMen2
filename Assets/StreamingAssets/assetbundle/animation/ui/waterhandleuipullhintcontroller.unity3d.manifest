@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3463229390
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3ce90f635a645bac79c3c631cddb30c9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecd48a33f0a5d27752dfbaf86f2e1ab5
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/animation/ui/WaterHandleUIPullHintController/WaterHandleUIPullHint.anim
+- Assets/RawRes/animation/ui/WaterHandleUIPullHintController/WaterHandleUIPullHintController.controller
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/water_pull_ch.unity3d

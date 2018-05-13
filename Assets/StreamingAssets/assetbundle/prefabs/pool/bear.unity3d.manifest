@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 868600693
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ec3bccd6371de71d25675cc211aa5016
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 17c66a814e74c886fce4b7bb6c2e4c77
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/bear.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/bear.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/models/bear.unity3d

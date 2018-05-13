@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3495569042
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 068492a790099286e0d4eb23992280ff
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e2be3b0ded5dc46bcc8051a458695e39
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/Hand.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/elite_monster.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/models/hand.unity3d

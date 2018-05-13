@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4228571406
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1b4ef3195a4c5c6258c6f41fd7bf92ea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4cd0a5558493b0679e071c141fc729a3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/textures/life_boat/jiushengting_jiushengquan.jpg
+Dependencies: []

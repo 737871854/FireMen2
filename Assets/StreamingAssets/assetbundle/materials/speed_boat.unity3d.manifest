@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1281666766
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b96b038807682fe3303ead9f9d807d43
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d068741ae817c9b5c92580f37de87e3
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/materials/speed_boat/xiaofangkuaiting _boli.mat
+- Assets/RawRes/materials/speed_boat/xiaofangkuaiting.mat
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/shaders/unlit_alpha_test_cull_off.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/textures/life_boat.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/textures/speed_boat.unity3d

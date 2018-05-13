@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2600170645
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9812984bccb095257369f3ac58ea2852
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/audios/music_standby_02.wav
+Dependencies: []

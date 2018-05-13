@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 295865103
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 805551cf23a2720812dcb5db66f79647
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1c503a6b54334c23063d1cca9315af93
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/bear/bear_controller.controller
+- Assets/RawRes/models/bear/bearboss@jump.FBX
+- Assets/RawRes/models/bear/bearboss@attack_ball01.FBX
+- Assets/RawRes/models/bear/bearboss@dead.FBX
+- Assets/RawRes/models/bear/bearboss.FBX
+- Assets/RawRes/models/bear/bearboss@jump01.FBX
+- Assets/RawRes/models/bear/bearboss@attack_beat.FBX
+- Assets/RawRes/models/bear/bearboss@attack_beat_break0.FBX
+- Assets/RawRes/models/bear/bearboss@attack_claw_break.FBX
+- Assets/RawRes/models/bear/bearboss@idle.FBX
+- Assets/RawRes/models/bear/bearboss@attack_ball.FBX
+- Assets/RawRes/models/bear/bearboss@move.FBX
+- Assets/RawRes/models/bear/bearboss@attack_claw.FBX
+- Assets/RawRes/models/bear/bearboss@run.FBX
+Dependencies: []

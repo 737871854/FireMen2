@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1356749278
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 172b0393790b0693a60a6dc391ccfabe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d068741ae817c9b5c92580f37de87e3
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/materials/particle/w_fire_1.mat
+- Assets/RawRes/materials/particle/Part1.mat
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/textures/particle.unity3d

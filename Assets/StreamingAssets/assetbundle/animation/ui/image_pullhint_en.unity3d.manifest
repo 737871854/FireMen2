@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1257975222
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: df376a0ccc039cd0c784986d7d4ca50c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dbc44b7a0b7afe8439101dc610de329a
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/animation/ui/Image_PullHint_EN/WaterHandleUIPullHintController_En.anim
+- Assets/RawRes/animation/ui/Image_PullHint_EN/Image_PullHint_EN.controller
+Dependencies: []

@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 599991059
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a5b743be96e19b44717f6bece4531cca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecd48a33f0a5d27752dfbaf86f2e1ab5
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/animation/ui/WaterHandleUIManController/WaterHandleUIManController.controller
+- Assets/RawRes/animation/ui/WaterHandleUIManController/WaterHandleUIManWait.anim
+- Assets/RawRes/animation/ui/WaterHandleUIManController/WaterHandleUIManPlay.anim
+- Assets/RawRes/animation/ui/WaterHandleUIManController/WaterHandleUIManIdle.anim
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/water_man.unity3d

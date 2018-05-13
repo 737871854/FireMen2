@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 308958210
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 94504efc6f86e8cdd566202b55b9a622
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle10.png
+- Assets/RawRes/ui/water_man/Frame_WaterManPlay8.png
+- Assets/RawRes/ui/water_man/Frame_WaterManPlay4.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle1.png
+- Assets/RawRes/ui/water_man/Frame_WaterManPlay5.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle12.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle4.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle3.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle2.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle9.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle11.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle5.png
+- Assets/RawRes/ui/water_man/Frame_WaterManPlay3.png
+- Assets/RawRes/ui/water_man/Frame_WaterManPlay6.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle7.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle13.png
+- Assets/RawRes/ui/water_man/Frame_WaterManPlay7.png
+- Assets/RawRes/ui/water_man/Frame_WaterManPlay10.png
+- Assets/RawRes/ui/water_man/Frame_WaterManPlay2.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle8.png
+- Assets/RawRes/ui/water_man/Frame_WaterManPlay9.png
+- Assets/RawRes/ui/water_man/Frame_WaterManIdle6.png
+- Assets/RawRes/ui/water_man/Frame_WaterManPlay1.png
+Dependencies: []

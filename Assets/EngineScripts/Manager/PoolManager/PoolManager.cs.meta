@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3c34f9a17dd868545a9e464e9d9f651f
+labels:
+- Spawn
+- Manager
+- Preload
+- Pool
+- Instance
+- Performance
+timeCreated: 1492741537
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

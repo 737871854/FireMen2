@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 909133001
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ba74af40e6f9ef93503b3fc5abfcbfb0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 02689407958b3b99319348c541dc5079
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/speed_boat.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/speed_boat.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/models/speed_boat.unity3d

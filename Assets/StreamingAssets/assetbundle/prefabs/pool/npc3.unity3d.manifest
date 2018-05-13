@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3557040851
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 40d0fdd137364014cf25b3d857d53b29
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9c264d6778c5c38237d4e885403c915f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/npc3.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/5animal.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/models/5animal.unity3d

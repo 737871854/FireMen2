@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3263693456
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5d570f3695da4cb027462af5035d1866
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/ui/water_bubble/Frame_Water2.png
+- Assets/RawRes/ui/water_bubble/Frame_Water1.png
+- Assets/RawRes/ui/water_bubble/Frame_Water3.png
+- Assets/RawRes/ui/water_bubble/Frame_Water0.png
+- Assets/RawRes/ui/water_bubble/Frame_Water4.png
+Dependencies: []

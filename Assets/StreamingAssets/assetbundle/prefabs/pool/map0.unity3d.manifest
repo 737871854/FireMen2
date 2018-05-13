@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1453054866
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 577c1c1accd4651f057c84f7b23f9c34
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6690c621097639a04b15ac017f98b816
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/map0.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/map.unity3d

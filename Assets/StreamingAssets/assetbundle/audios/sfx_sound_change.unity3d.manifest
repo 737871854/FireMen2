@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4182567804
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 935796ba835358041b48a5fc236f53f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/audios/sfx_sound_change.wav
+Dependencies: []

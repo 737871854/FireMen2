@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 981133173
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 15bebc4f263da5bc135747d1fb42f832
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/audios/music_scene1.wav
+Dependencies: []

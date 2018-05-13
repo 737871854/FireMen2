@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1556679054
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0ee85fdd403f0ba4704d5a83b07c3b5c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d4cdae4f1adeb8af53c699df64f645d2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/player/Fireman1.FBX
+- Assets/RawRes/models/player/Firewoman.FBX
+- Assets/RawRes/models/player/Fireman2.FBX
+Dependencies: []

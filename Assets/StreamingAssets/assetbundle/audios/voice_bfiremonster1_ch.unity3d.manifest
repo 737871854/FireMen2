@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 134856246
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6e4a0d6c61ed213b8639369dd90b71f2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/audios/voice_bfiremonster1_ch.wav
+Dependencies: []

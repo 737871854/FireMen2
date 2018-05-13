@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 4048307277
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 99512771c41a8c8fafa18590a2ecd11d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8da9e3a37c043e1c1ab8201871645b52
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/helicopter.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/helicopter.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/models/helicopter.unity3d

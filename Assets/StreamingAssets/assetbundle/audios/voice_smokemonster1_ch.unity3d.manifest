@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1552148134
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c844405757be33f9b5b437d596120714
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/audios/voice_smokemonster1_ch.wav
+Dependencies: []

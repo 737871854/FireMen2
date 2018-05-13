@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 420678448
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3c79deb9e4ce8abcb9adbbbcc7bb3d2f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d068741ae817c9b5c92580f37de87e3
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/materials/map/map2.mat
+- Assets/RawRes/materials/map/map1.mat
+- Assets/RawRes/materials/map/map_water.mat
+- Assets/RawRes/materials/map/map0.mat
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/textures/map.unity3d

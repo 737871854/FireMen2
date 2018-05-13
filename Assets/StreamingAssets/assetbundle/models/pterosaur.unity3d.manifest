@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 1549170604
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 36ba1f24959859157f242decef55fef9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1c503a6b54334c23063d1cca9315af93
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/pterosaur/pterosaur@attack_xxx.FBX
+- Assets/RawRes/models/pterosaur/pterosaur_controller.controller
+- Assets/RawRes/models/pterosaur/pterosaur@attack_breat1.FBX
+- Assets/RawRes/models/pterosaur/pterosaur.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_eye01.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_throw.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_claw1.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_beat.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_pat_break.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_mouse_break.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@run.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_claw.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_eye_break.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_climb_break.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_eye.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@dead01.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_xxx_break.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_mouse.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@dead.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_breat_break.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@idle.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_claw_break.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_climb.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_rain.FBX
+- Assets/RawRes/models/pterosaur/pterosaur@attack_pat.FBX
+Dependencies: []

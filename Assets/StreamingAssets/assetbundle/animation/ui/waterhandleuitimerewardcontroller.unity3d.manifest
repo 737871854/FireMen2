@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1248015203
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9d5c750309e0e7475241f63e5a19c1f3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ecd48a33f0a5d27752dfbaf86f2e1ab5
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/animation/ui/WaterHandleUITimeRewardController/WaterHandleUITimeReward.anim
+- Assets/RawRes/animation/ui/WaterHandleUITimeRewardController/WaterHandleUITimeRewardController.controller
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/time_reward_ch.unity3d

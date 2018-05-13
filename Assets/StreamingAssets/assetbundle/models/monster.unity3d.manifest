@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 1925512698
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 806fcb8c6709e76d21c95ba485e50725
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1c503a6b54334c23063d1cca9315af93
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/monster/BFireMonster@run.FBX
+- Assets/RawRes/models/monster/SmokeMonster@attack.FBX
+- Assets/RawRes/models/monster/BFireMonster@attack02.FBX
+- Assets/RawRes/models/monster/BFireMonster.FBX
+- Assets/RawRes/models/monster/BFireMonster@onattack_01.FBX
+- Assets/RawRes/models/monster/BFireMonster@idle.FBX
+- Assets/RawRes/models/monster/BFireMonster@attack.FBX
+- Assets/RawRes/models/monster/FireMonster@idle.FBX
+- Assets/RawRes/models/monster/SmokeMonster@idle.FBX
+- Assets/RawRes/models/monster/BFireMonster@onattack_02.FBX
+- Assets/RawRes/models/monster/FireMonster.FBX
+- Assets/RawRes/models/monster/BFireMonster@attack03.FBX
+- Assets/RawRes/models/monster/BFireMonster@attack01.FBX
+- Assets/RawRes/models/monster/HugeFireMonster.controller
+- Assets/RawRes/models/monster/MiniFireMonster.controller
+- Assets/RawRes/models/monster/SmokeMonster.FBX
+- Assets/RawRes/models/monster/FireMonster@attack.FBX
+- Assets/RawRes/models/monster/BFireMonster@jump.FBX
+- Assets/RawRes/models/monster/SmokeFireMonster.controller
+Dependencies: []

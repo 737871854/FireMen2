@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 2958344326
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7f8285fa553e4c2ceb2e59c1c246d448
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1c503a6b54334c23063d1cca9315af93
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/hand/shou@01.FBX
+- Assets/RawRes/models/hand/shou@03.FBX
+- Assets/RawRes/models/hand/idle.anim
+- Assets/RawRes/models/hand/shou@02.FBX
+- Assets/RawRes/models/hand/disappear.anim
+- Assets/RawRes/models/hand/hand_controller.controller
+- Assets/RawRes/models/hand/controller.controller
+- Assets/RawRes/models/hand/shou.FBX
+- Assets/RawRes/models/hand/appear.anim
+Dependencies: []

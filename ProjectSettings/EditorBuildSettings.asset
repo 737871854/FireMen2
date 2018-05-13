@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 9bf033ed840f7014a8ef4f52214531bb
+  - enabled: 1
+    path: Assets/Scenes/SelectScene.unity
+    guid: dde9eb49705bab74489b8c0b9af33f04
+  - enabled: 1
+    path: Assets/Scenes/BattleScene0_0.unity
+    guid: de60b1363cd85374b8a410b9f665bb76
+  - enabled: 1
+    path: Assets/Scenes/BattleScene0_1.unity
+    guid: a4a0e954e64607f4db7d277ad66051ad
+  - enabled: 1
+    path: Assets/Scenes/BattleScene0_2.unity
+    guid: e65ae1cd13eb68646a92d5ddc9a680a7
+  - enabled: 1
+    path: Assets/Scenes/BattleScene1.unity
+    guid: 3c5d8c0ede0523d49bd97da7b05dc764
+  - enabled: 1
+    path: Assets/Scenes/BattleScene2.unity
+    guid: b31de235a56b0f74ca87d6724c12b4c9
+  - enabled: 1
+    path: Assets/Scenes/CoinScene.unity
+    guid: 9eb72b97079f2a942a263d8fa21ca63e
+  - enabled: 1
+    path: Assets/Scenes/SettingScene.unity
+    guid: 08c2f1f57960a5c4bad1b307eb56db6d
+  - enabled: 1
+    path: Assets/Scenes/login.unity
+    guid: 6e616f3e0d7dae246a503ce87f70f47c
+  - enabled: 1
+    path: Assets/Scenes/empty.unity
+    guid: 572fd634c4f420b4faf93e1c0351344d
+  - enabled: 0
+    path: 
+    guid: cbd679e7665f84b49b321a299219fa84

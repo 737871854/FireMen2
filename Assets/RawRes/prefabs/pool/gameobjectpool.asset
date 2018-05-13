@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02575ee381e1f624780cafda692b0d25, type: 3}
+  m_Name: gameobjectpool
+  m_EditorClassIdentifier: 
+  poolList:
+  - name: box
+    path: prefabs\pool\box
+    preAmount: 0
+    maxAmount: 1
+  - name: effect_mini_fire_monster_bron
+    path: prefabs\pool\effect_mini_fire_monster_bron
+    preAmount: 0
+    maxAmount: 4
+  - name: effect_smoke_monster_born
+    path: prefabs\pool\effect_smoke_monster_born
+    preAmount: 0
+    maxAmount: 4
+  - name: extinguisher
+    path: prefabs\pool\extinguisher
+    preAmount: 0
+    maxAmount: 1
+  - name: gameobjectpool
+    path: prefabs\pool\gameobjectpool
+    preAmount: 0
+    maxAmount: 1
+  - name: huge_fire_monster
+    path: prefabs\pool\huge_fire_monster
+    preAmount: 0
+    maxAmount: 4
+  - name: hydrant
+    path: prefabs\pool\hydrant
+    preAmount: 0
+    maxAmount: 1
+  - name: life_boat
+    path: prefabs\pool\life_boat
+    preAmount: 0
+    maxAmount: 0
+  - name: life_buoy
+    path: prefabs\pool\life_buoy
+    preAmount: 0
+    maxAmount: 0
+  - name: map0
+    path: prefabs\pool\map0
+    preAmount: 0
+    maxAmount: 1
+  - name: map1
+    path: prefabs\pool\map1
+    preAmount: 0
+    maxAmount: 1
+  - name: map2
+    path: prefabs\pool\map2
+    preAmount: 0
+    maxAmount: 1
+  - name: mini_fire_monster
+    path: prefabs\pool\mini_fire_monster
+    preAmount: 0
+    maxAmount: 4
+  - name: move_extinguisher
+    path: prefabs\pool\move_extinguisher
+    preAmount: 0
+    maxAmount: 1
+  - name: player0
+    path: prefabs\pool\player0
+    preAmount: 0
+    maxAmount: 1
+  - name: player1
+    path: prefabs\pool\player1
+    preAmount: 0
+    maxAmount: 1
+  - name: player2
+    path: prefabs\pool\player2
+    preAmount: 0
+    maxAmount: 1
+  - name: smoke_fire_monster
+    path: prefabs\pool\smoke_fire_monster
+    preAmount: 0
+    maxAmount: 4
+  - name: super_water
+    path: prefabs\pool\super_water
+    preAmount: 0
+    maxAmount: 2
+  - name: telephone
+    path: prefabs\pool\telephone
+    preAmount: 0
+    maxAmount: 1
+  - name: water
+    path: prefabs\pool\water
+    preAmount: 0
+    maxAmount: 1
+  - name: water_ bottle
+    path: prefabs\pool\water_ bottle
+    preAmount: 0
+    maxAmount: 1
+  - name: water_wheel
+    path: prefabs\pool\water_wheel
+    preAmount: 0
+    maxAmount: 1
+  - name: well
+    path: prefabs\pool\well
+    preAmount: 0
+    maxAmount: 1
+  - name: citizen0
+    path: prefabs\pool\citizen0
+    preAmount: 0
+    maxAmount: 1
+  - name: citizen1
+    path: prefabs\pool\citizen1
+    preAmount: 0
+    maxAmount: 1
+  - name: citizen2
+    path: prefabs\pool\citizen2
+    preAmount: 0
+    maxAmount: 1
+  - name: helicopter
+    path: prefabs\pool\helicopter
+    preAmount: 0
+    maxAmount: 1
+  - name: coin
+    path: prefabs\pool\coin
+    preAmount: 0
+    maxAmount: 60
+  - name: support
+    path: prefabs\pool\support
+    preAmount: 0
+    maxAmount: 1
+  - name: freeze
+    path: prefabs\pool\freeze
+    preAmount: 0
+    maxAmount: 1
+  - name: sand_box
+    path: prefabs\pool\sand_box
+    preAmount: 0
+    maxAmount: 2
+  - name: elite_monster
+    path: prefabs\pool\elite_monster
+    preAmount: 0
+    maxAmount: 6
+  - name: bull_demon_king
+    path: prefabs\pool\bull_demon_king
+    preAmount: 0
+    maxAmount: 1
+  - name: npc0
+    path: prefabs\pool\npc0
+    preAmount: 0
+    maxAmount: 1
+  - name: npc1
+    path: prefabs\pool\npc1
+    preAmount: 0
+    maxAmount: 1
+  - name: npc2
+    path: prefabs\pool\npc2
+    preAmount: 0
+    maxAmount: 1
+  - name: npc3
+    path: prefabs\pool\npc3
+    preAmount: 0
+    maxAmount: 1
+  - name: npc4
+    path: prefabs\pool\npc4
+    preAmount: 0
+    maxAmount: 1
+  - name: wolf
+    path: prefabs\pool\wolf
+    preAmount: 0
+    maxAmount: 1
+  - name: pterosaur
+    path: prefabs\pool\pterosaur
+    preAmount: 0
+    maxAmount: 1
+  - name: dragon
+    path: prefabs\pool\dragon
+    preAmount: 0
+    maxAmount: 6
+  - name: bear
+    path: prefabs\pool\bear
+    preAmount: 0
+    maxAmount: 1
+  - name: ball
+    path: prefabs\pool\ball
+    preAmount: 0
+    maxAmount: 4
+  - name: bucket
+    path: prefabs\pool\bucket
+    preAmount: 0
+    maxAmount: 2

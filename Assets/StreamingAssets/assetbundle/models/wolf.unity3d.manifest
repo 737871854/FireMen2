@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 3928794886
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1372335245754eed71e3d84d4e8e99a2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fb0397dd12a805753eee98e740b25e57
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/wolf/wolf@attack01-01.FBX
+- Assets/RawRes/models/wolf/wolf@attack02.FBX
+- Assets/RawRes/models/wolf/wolf@idle.FBX
+- Assets/RawRes/models/wolf/wolf.FBX
+- Assets/RawRes/models/wolf/wolf@run.FBX
+- Assets/RawRes/models/wolf/wolf_controller.controller
+- Assets/RawRes/models/wolf/wolf@attack01-02.FBX
+- Assets/RawRes/models/wolf/wolf@attack03.FBX
+- Assets/RawRes/models/wolf/wolf@attack.FBX
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/wolf.unity3d

@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 1049437273
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8212ead93b0b7237a6e8c0ac95df009d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1c503a6b54334c23063d1cca9315af93
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/elite_monster/jingyanguai@idle.FBX
+- Assets/RawRes/models/elite_monster/jingyanguai@attack01-02.FBX
+- Assets/RawRes/models/elite_monster/jingyanguai@attack.FBX
+- Assets/RawRes/models/elite_monster/jingyanguai@attack02.FBX
+- Assets/RawRes/models/elite_monster/jingyanguai.FBX
+- Assets/RawRes/models/elite_monster/jingyanguai@attack01-01.FBX
+- Assets/RawRes/models/elite_monster/jingyanguai@attack03.FBX
+- Assets/RawRes/models/elite_monster/jingyanguai@attack1.FBX
+- Assets/RawRes/models/elite_monster/jingyanguai@attack01.FBX
+- Assets/RawRes/models/elite_monster/jingyanguai@attack0.FBX
+- Assets/RawRes/models/elite_monster/jingyanguai@run.FBX
+- Assets/RawRes/models/elite_monster/elite_monster_controller.controller
+Dependencies: []

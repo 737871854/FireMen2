@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2360732814
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d7308def772956fd66bdf34c4ca5bb2a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8ce7ff9c0c6ba8d2a623d30ec748ce2c
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/materials/ui/ui_default.mat
+Dependencies: []

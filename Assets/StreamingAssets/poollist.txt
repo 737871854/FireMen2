@@ -1,0 +1,4 @@
+Cube,Assets/Prefabs/modle/Cube.prefab
+Cylinder,Assets/Prefabs/modle/Cylinder.prefab
+gameobjectpool,Assets/Prefabs/modle/gameobjectpool.asset
+Sphere,Assets/Prefabs/modle/Sphere.prefab

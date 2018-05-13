@@ -1,0 +1,111 @@
+[
+  {
+    "CheckPointScores": [
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1
+    ], 
+    "Id": 201, 
+    "Level": 1, 
+    "MustCreateActor": [
+      -1.0
+    ], 
+    "MustKill": [
+      -1.0
+    ], 
+    "MustRescue": [
+      -1.0
+    ], 
+    "SceneID": 2, 
+    "SceneName": "第一个关卡场景1"
+  }, 
+  {
+    "CheckPointScores": [
+      -1
+    ], 
+    "Id": 401, 
+    "Level": 1, 
+    "MustCreateActor": [
+      -1.0
+    ], 
+    "MustKill": [
+      "0", 
+      "1021", 
+      "1"
+    ], 
+    "MustRescue": [
+      -1.0
+    ], 
+    "SceneID": 4, 
+    "SceneName": "第一个关卡场景3"
+  }, 
+  {
+    "CheckPointScores": [
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1
+    ], 
+    "Id": 501, 
+    "Level": 1, 
+    "MustCreateActor": [
+      -1.0
+    ], 
+    "MustKill": [
+      -1.0
+    ], 
+    "MustRescue": [
+      -1.0
+    ], 
+    "SceneID": 5, 
+    "SceneName": "第一个关卡场景4"
+  }, 
+  {
+    "CheckPointScores": [
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1, 
+      -1
+    ], 
+    "Id": 601, 
+    "Level": 1, 
+    "MustCreateActor": [
+      -1.0
+    ], 
+    "MustKill": [
+      "12", 
+      "1023", 
+      "1"
+    ], 
+    "MustRescue": [
+      -1.0
+    ], 
+    "SceneID": 6, 
+    "SceneName": "第一个关卡场景5"
+  }
+]

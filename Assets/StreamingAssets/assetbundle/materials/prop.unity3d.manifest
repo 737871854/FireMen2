@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 3217281769
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cae64f93770cfaf8e1a8ae730132ce90
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d068741ae817c9b5c92580f37de87e3
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/materials/prop/bucket.mat
+- Assets/RawRes/materials/prop/shuipao.mat
+- Assets/RawRes/materials/prop/yidongmiehuoqi_xiaofangshuan_qiujiudianhua.mat
+- Assets/RawRes/materials/prop/miehuoqi_yingjibao.mat
+- Assets/RawRes/materials/prop/shuiping_.mat
+- Assets/RawRes/materials/prop/shaxiang.mat
+- Assets/RawRes/materials/prop/JinBi_color.mat
+- Assets/RawRes/materials/prop/shuiping.mat
+- Assets/RawRes/materials/prop/shuicheshuijing.mat
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/shaders/toony_basic_outline.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/shaders/unlit_alpha_test_cull_off.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/textures/prop.unity3d

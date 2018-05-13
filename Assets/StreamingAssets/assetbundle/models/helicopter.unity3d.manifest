@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 3850206747
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea960e4da6438b3b41f4cb656a9f0731
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1c503a6b54334c23063d1cca9315af93
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/helicopter/helicoptercontroller.controller
+- Assets/RawRes/models/helicopter/xiaofangfeiji.FBX
+- Assets/RawRes/models/helicopter/xiaofangfeiji@idle01.FBX
+- Assets/RawRes/models/helicopter/xiaofangfeiji@idle04.FBX
+- Assets/RawRes/models/helicopter/xiaofangfeiji@idle02.FBX
+- Assets/RawRes/models/helicopter/xiaofangfeiji@idle03.FBX
+Dependencies: []

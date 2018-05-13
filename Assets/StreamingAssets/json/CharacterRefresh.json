@@ -1,0 +1,4250 @@
+[
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.246, 
+      0.0, 
+      0.528
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1000, 
+    "CricleName": "NULL", 
+    "Desc": "选择关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 110000, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      3.456, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 0, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Player", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0, 
+      0.0, 
+      0.528
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1001, 
+    "CricleName": "NULL", 
+    "Desc": "选择关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 110001, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      11.207, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 0, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Player", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -0.25, 
+      0.0, 
+      0.528
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1002, 
+    "CricleName": "NULL", 
+    "Desc": "选择关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 110002, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      24.037, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 0, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Player", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1003, 
+    "CricleName": "NULL", 
+    "Desc": "选择关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 110003, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 0, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Map", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1004, 
+    "CricleName": "NULL", 
+    "Desc": "选择关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 110004, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 0, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Map", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1005, 
+    "CricleName": "NULL", 
+    "Desc": "选择关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 110005, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 0, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Map", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area0", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120000, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      60
+    ], 
+    "SceneID": 1, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area0", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120001, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 1, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area1", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120002, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      60
+    ], 
+    "SceneID": 1, 
+    "Stage": 1, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area1", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120003, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 1, 
+    "Stage": 1, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area2", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120004, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      60
+    ], 
+    "SceneID": 1, 
+    "Stage": 2, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area2", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120005, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 1, 
+    "Stage": 2, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area3", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120006, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      60
+    ], 
+    "SceneID": 1, 
+    "Stage": 3, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area3", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120007, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 1, 
+    "Stage": 3, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area4", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120008, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      60
+    ], 
+    "SceneID": 1, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area4", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120009, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 1, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area6", 
+    "AppearePoint": [
+      -0.729, 
+      -1.2, 
+      -3.591
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1026, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 120010, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area7", 
+    "AppearePoint": [
+      1.687, 
+      -1.2, 
+      -2.271
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1027, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 120011, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 1, 
+    "AppeareArea": "Area5", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 120012, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.325, 
+      -1.3545, 
+      -2.781
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1033, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.0, 
+    "Id": 120013, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      72.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "sand_box", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.147, 
+      -1.3545, 
+      -0.374
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1033, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.0, 
+    "Id": 120014, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      95.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "sand_box", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 1, 
+    "AppeareArea": "Area5", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 120015, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 5, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area6", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120016, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      30
+    ], 
+    "SceneID": 1, 
+    "Stage": 5, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area6", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120017, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      30, 
+      60
+    ], 
+    "SceneID": 1, 
+    "Stage": 5, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area6", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120018, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 1, 
+    "Stage": 5, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area8", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120019, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      30
+    ], 
+    "SceneID": 1, 
+    "Stage": 6, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area8", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120020, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      30, 
+      60
+    ], 
+    "SceneID": 1, 
+    "Stage": 6, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area8", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120021, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 1, 
+    "Stage": 6, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1029, 
+    "CricleName": "Circle0", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120022, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 7, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Coin", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1029, 
+    "CricleName": "Circle1", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 120023, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 7, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Coin", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1030, 
+    "CricleName": "Circle0", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 120024, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 8, 
+    "StayArea": "Area9", 
+    "StayTime": [
+      2.0, 
+      8.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1030, 
+    "CricleName": "Circle1", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 120025, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 8, 
+    "StayArea": "Area9", 
+    "StayTime": [
+      2.0, 
+      8.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area10", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 120026, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 9, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area10", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 120027, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 9, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area10", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 120028, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 1, 
+    "Stage": 9, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 2, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -9.104, 
+      0.101, 
+      5.385
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1026, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": 5.0, 
+    "FactorSpeed": 0.2, 
+    "Id": 120029, 
+    "Interval": 5, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      180.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      40
+    ], 
+    "SceneID": 1, 
+    "Stage": 9, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "Door0"
+  }, 
+  {
+    "ActionType": 2, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -9.104, 
+      0.101, 
+      5.385
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1027, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": 5.0, 
+    "FactorSpeed": 0.2, 
+    "Id": 120030, 
+    "Interval": 5, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      180.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      40, 
+      70
+    ], 
+    "SceneID": 1, 
+    "Stage": 9, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "Door0"
+  }, 
+  {
+    "ActionType": 2, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -9.104, 
+      0.101, 
+      5.385
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1028, 
+    "CricleName": "NULL", 
+    "Desc": "小镇第一个关卡", 
+    "DisappearTime": 5.0, 
+    "FactorSpeed": 0.2, 
+    "Id": 120031, 
+    "Interval": 5, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      180.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      70, 
+      100
+    ], 
+    "SceneID": 1, 
+    "Stage": 9, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "Door0"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -0.096, 
+      0.133, 
+      -5.0
+    ], 
+    "AppeareTime": 1.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1021, 
+    "CricleName": "NULL", 
+    "Desc": "室内关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 140000, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.2, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 3, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "bull_demon_king", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "Door8"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      55.82, 
+      1.75, 
+      33.78
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1036, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.0, 
+    "Id": 150000, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 4, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Bucket", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area0", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150001, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      60
+    ], 
+    "SceneID": 4, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area0", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150002, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area2", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1024, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 150003, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.2, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 4, 
+    "Stage": 1, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 4, 
+    "Tag": "Npc", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 5, 
+    "AppeareArea": "Area3", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 150004, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 1, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area1", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150005, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      60
+    ], 
+    "SceneID": 4, 
+    "Stage": 1, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area1", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150006, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 1, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area4", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150007, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      60
+    ], 
+    "SceneID": 4, 
+    "Stage": 2, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area4", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150008, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 2, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area5", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1024, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 150009, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.2, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 4, 
+    "Stage": 3, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 4, 
+    "Tag": "Npc", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 1, 
+    "AppeareArea": "Area6", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 150010, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 4, 
+    "Stage": 3, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area7", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150011, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      30
+    ], 
+    "SceneID": 4, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area7", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150012, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      30, 
+      60
+    ], 
+    "SceneID": 4, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area7", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150013, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area8", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1024, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 150014, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.2, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 4, 
+    "Stage": 5, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 4, 
+    "Tag": "Npc", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 5, 
+    "AppeareArea": "Area9", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 150015, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 5, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1029, 
+    "CricleName": "Circle0", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150016, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 4, 
+    "Stage": 6, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Coin", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1029, 
+    "CricleName": "Circle1", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150017, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 4, 
+    "Stage": 6, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Coin", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area10", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1024, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 150018, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.2, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 4, 
+    "Stage": 7, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 4, 
+    "Tag": "Npc", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 5, 
+    "AppeareArea": "Area11", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 150019, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 7, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1030, 
+    "CricleName": "Circle0", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 150020, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 4, 
+    "Stage": 8, 
+    "StayArea": "Area12", 
+    "StayTime": [
+      2.0, 
+      8.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1030, 
+    "CricleName": "Circle1", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 150021, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 4, 
+    "Stage": 8, 
+    "StayArea": "Area12", 
+    "StayTime": [
+      2.0, 
+      8.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      33.57, 
+      2.83, 
+      60.37
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1034, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": 0.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150022, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 9, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Wolf", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      37.4, 
+      2.46, 
+      66.2
+    ], 
+    "AppeareTime": 2.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1034, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": 0.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150023, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 9, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Wolf", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      31.6, 
+      3.24, 
+      72.3
+    ], 
+    "AppeareTime": 5.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1034, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": 0.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150024, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 9, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Wolf", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      31.6, 
+      3.24, 
+      72.3
+    ], 
+    "AppeareTime": 10.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1034, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": 0.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150025, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 9, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Wolf", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area13", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.5, 
+    "Id": 150026, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      30
+    ], 
+    "SceneID": 4, 
+    "Stage": 10, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area13", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.5, 
+    "Id": 150027, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      30, 
+      60
+    ], 
+    "SceneID": 4, 
+    "Stage": 10, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area13", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.5, 
+    "Id": 150028, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 10, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 4, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      25.27, 
+      3.17, 
+      67.2
+    ], 
+    "AppeareTime": 2.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1034, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150029, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 10, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Wolf", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 4, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      24.1, 
+      3.48, 
+      74.4
+    ], 
+    "AppeareTime": 8.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1034, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 150030, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 10, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Wolf", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      26.344, 
+      3.721, 
+      67.26
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1022, 
+    "CricleName": "NULL", 
+    "Desc": "农场关卡", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.5, 
+    "Id": 150031, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      1.699, 
+      60.637, 
+      -1.509
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 4, 
+    "Stage": 11, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Bear", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 6, 
+    "AppeareArea": "Area0", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1027, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160000, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 1, 
+    "AppeareArea": "Area1", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160001, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area1", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160002, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      30
+    ], 
+    "SceneID": 5, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area1", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160003, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      30, 
+      60
+    ], 
+    "SceneID": 5, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area1", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160004, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 5, 
+    "Stage": 0, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 7, 
+    "AppeareArea": "Area2", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1027, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160005, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 2, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 7, 
+    "AppeareArea": "Area2", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1026, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160006, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 2, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 1, 
+    "AppeareArea": "Area3", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160007, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 2, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area3", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160008, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      30
+    ], 
+    "SceneID": 5, 
+    "Stage": 2, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area3", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160009, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      30, 
+      60
+    ], 
+    "SceneID": 5, 
+    "Stage": 2, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area3", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160010, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 5, 
+    "Stage": 2, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area4", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160011, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      30
+    ], 
+    "SceneID": 5, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area4", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160012, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      30, 
+      60
+    ], 
+    "SceneID": 5, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area4", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160013, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 5, 
+    "Stage": 4, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area5", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160014, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      30
+    ], 
+    "SceneID": 5, 
+    "Stage": 5, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area5", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160015, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      30, 
+      60
+    ], 
+    "SceneID": 5, 
+    "Stage": 5, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area5", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160016, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 5, 
+    "Stage": 5, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area6", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160017, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0, 
+      30
+    ], 
+    "SceneID": 5, 
+    "Stage": 6, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "Door1"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area6", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1019, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160018, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      30, 
+      60
+    ], 
+    "SceneID": 5, 
+    "Stage": 6, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "Door1"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "Area6", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1020, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160019, 
+    "Interval": 0, 
+    "IsKinematic": 1, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      60, 
+      100
+    ], 
+    "SceneID": 5, 
+    "Stage": 6, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "Door1"
+  }, 
+  {
+    "ActionType": 7, 
+    "AppeareArea": "Area7", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1027, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160020, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 7, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 7, 
+    "AppeareArea": "Area7", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1026, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160021, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 7, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 7, 
+    "AppeareArea": "Area7", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1028, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160022, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.0, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 7, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 1, 
+    "AppeareArea": "Area8", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1018, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.3, 
+    "Id": 160023, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 7, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Monster", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -7.4415, 
+      1.8214, 
+      4.219
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1009, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 160024, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      80.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 8, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "life_boat", 
+    "TargetAgentID": 1028, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -5.2175, 
+      1.8214, 
+      4.219
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1009, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 160025, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      80.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 8, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "life_boat", 
+    "TargetAgentID": 1027, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -2.984, 
+      1.8214, 
+      4.219
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 1.0, 
+    "CharacterID": 1009, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 160026, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      80.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 8, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "life_boat", 
+    "TargetAgentID": 1026, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 8, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -4.3, 
+      -0.233, 
+      5.51
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1027, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 160027, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 8, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 8, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -2.63, 
+      -0.233, 
+      4.84
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1026, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 160028, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 8, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 8, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      -7.63, 
+      -0.233, 
+      4.54
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1028, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 160029, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 8, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Citizen", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.5, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 3, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1035, 
+    "CricleName": "Cricle0", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 160030, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 10, 
+    "StayArea": "Area9", 
+    "StayTime": [
+      1.0, 
+      3.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Dragon", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.3, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 3, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1035, 
+    "CricleName": "Cricle1", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 160031, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 10, 
+    "StayArea": "Area9", 
+    "StayTime": [
+      1.0, 
+      3.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Dragon", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.3, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 4, 
+    "AppeareArea": "Area10", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1035, 
+    "CricleName": "Cricle1", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 160032, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 11, 
+    "StayArea": "Area11", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 3, 
+    "Tag": "Dragon", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.3, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 4, 
+    "AppeareArea": "Area10", 
+    "AppearePoint": [
+      0.0
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1035, 
+    "CricleName": "Cricle1", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 0.4, 
+    "Id": 160033, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 1, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 11, 
+    "StayArea": "Area11", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Dragon", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 0.3, 
+    "WindowName": "NULL"
+  }, 
+  {
+    "ActionType": 0, 
+    "AppeareArea": "NULL", 
+    "AppearePoint": [
+      152.18, 
+      10.22, 
+      43.33
+    ], 
+    "AppeareTime": 0.0, 
+    "BegineLocalScale": 0.0, 
+    "CharacterID": 1023, 
+    "CricleName": "NULL", 
+    "Desc": "海洋场景", 
+    "DisappearTime": -1.0, 
+    "FactorSpeed": 1.0, 
+    "Id": 160034, 
+    "Interval": 0, 
+    "IsKinematic": 0, 
+    "LevelRate": 0.0, 
+    "LocalEulerAngles": [
+      0.0, 
+      0.0, 
+      0.0
+    ], 
+    "LocalScaleTime": 0.5, 
+    "Loop": 0, 
+    "RefreshRate": [
+      0
+    ], 
+    "SceneID": 5, 
+    "Stage": 11, 
+    "StayArea": "NULL", 
+    "StayTime": [
+      0.0
+    ], 
+    "StepCount": 1, 
+    "Tag": "Pterosaur", 
+    "TargetAgentID": 0, 
+    "TargetLocalScale": 1.0, 
+    "WindowName": "NULL"
+  }
+]

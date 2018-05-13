@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 1545544756
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4f693f74ad13c9df1063d2a237db6213
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 57c2e47e67905d4271c14328cac7592d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/effect_mini_fire_monster_bron.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/particle.unity3d

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f9d1f7e16155dfa489cf6b97eb041594
+timeCreated: 1509159598
+licenseType: Pro
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 0.099999994
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 1
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: audios/music_standby_00.unity3d
+  assetBundleVariant: 

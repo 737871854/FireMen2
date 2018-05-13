@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3581595426
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5d278d64ac7586c35d6504b776a2a45d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4939cbcf02b9fe5ce76c851668b21bee
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/smoke_fire_monster.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/monster.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/models/monster.unity3d

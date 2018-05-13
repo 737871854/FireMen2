@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4124602367
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9dd1a3d1b18a967a2ac0e0460d9d0645
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4cd0a5558493b0679e071c141fc729a3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/textures/particle/w_fire_1.png
+- Assets/RawRes/textures/particle/Part1.png
+Dependencies: []

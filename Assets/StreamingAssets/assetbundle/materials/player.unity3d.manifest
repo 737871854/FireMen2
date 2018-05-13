@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 4122215021
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 785d7843574f09428d7c8b05c1781d05
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8d068741ae817c9b5c92580f37de87e3
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/materials/player/player0.mat
+- Assets/RawRes/materials/player/player2.mat
+- Assets/RawRes/materials/player/player1.mat
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/shaders/toony_basic_outline.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/textures/player.unity3d

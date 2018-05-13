@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: yuanzhu2 luoxuanyuanzhu2 luoxuan
+  m_Shader: {fileID: 4800000, guid: ab9af5c935dc7a546abce9eeea55dac3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 57846c035057bdc438e72d657ea9126e, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 1, y: 1}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 2da9336e778f5664299174c181db7f78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 2800000, guid: a6709524780cbac449b0ce876934983b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: e3ca6c6c04bd49f4ebea58fa9c1cd4e4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _ForceX: 0
+    - _ForceY: 0
+    - _HeatTime: -1
+    - _InvFade: 1
+    - _N_BY_KD: 0.01
+    - _N_BY_QD: 1
+    - _N_mask: 1
+    m_Colors:
+    - _C_BYcolor: {r: 0, g: 0.8758622, b: 1, a: 1}
+    - _Center: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.5882353, g: 0.8117648, b: 0.9686275, a: 1}
+    - _Normal: {r: 0, g: 0, b: 1, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}

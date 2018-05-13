@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 3931217855
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2d4475617ea04cdf677b46a5b0a97df6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 470be7bc9a0cc1aede1dd43f42814810
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/pool/bull_demon_king.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/bull_demon_king.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/models/bull_demon_king.unity3d

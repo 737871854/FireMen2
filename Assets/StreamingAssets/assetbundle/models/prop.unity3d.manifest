@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 1363014683
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1cc6e330d91355414cbee740b39b5639
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c8470e680e304e40bf8eb10878f45aa4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/prop/yingjibao.fbx
+- Assets/RawRes/models/prop/JinBi.fbx
+- Assets/RawRes/models/prop/yidongmiehuoqi.fbx
+- Assets/RawRes/models/prop/miehuoqi.fbx
+- Assets/RawRes/models/prop/shuiche.fbx
+- Assets/RawRes/models/prop/xiaofangshuan.fbx
+- Assets/RawRes/models/prop/shuipao.fbx
+- Assets/RawRes/models/prop/shaxiang.fbx
+- Assets/RawRes/models/prop/shuiping.fbx
+- Assets/RawRes/models/prop/jiushengquan.fbx
+- Assets/RawRes/models/prop/chaojishuipao.fbx
+- Assets/RawRes/models/prop/shuijing.fbx
+- Assets/RawRes/models/prop/qiujiudianhua.fbx
+- Assets/RawRes/models/prop/shuitong.fbx
+Dependencies: []

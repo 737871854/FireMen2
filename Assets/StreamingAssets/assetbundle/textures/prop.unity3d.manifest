@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2126093684
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e48f508e58ddead4b5588a2a1f07828a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4cd0a5558493b0679e071c141fc729a3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/textures/prop/shuipao.jpg
+- Assets/RawRes/textures/prop/miehuoqi-yingjibao.jpg
+- Assets/RawRes/textures/prop/shuitong_dif.jpg
+- Assets/RawRes/textures/prop/yidongmiehuoqi-xiaofangshuan-qiujiudianhua.jpg
+- Assets/RawRes/textures/prop/shuicheshuijing.jpg
+- Assets/RawRes/textures/prop/shuipao_normals.jpg
+- Assets/RawRes/textures/prop/shuiping.jpg
+- Assets/RawRes/textures/prop/shaxiang.dds
+- Assets/RawRes/textures/prop/JinBi_color.jpg
+Dependencies: []

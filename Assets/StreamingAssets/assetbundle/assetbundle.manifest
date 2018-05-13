@@ -1,0 +1,601 @@
+ManifestFileVersion: 0
+CRC: 2269015318
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: animation/ui/image_pullhint_en.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: animation/ui/image_reward_en.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: animation/ui/water.unity3d
+      Dependencies:
+        Dependency_0: ui/battle.unity3d
+    Info_3:
+      Name: animation/ui/waterhandleuibubble.unity3d
+      Dependencies:
+        Dependency_0: ui/water_bubble.unity3d
+    Info_4:
+      Name: animation/ui/waterhandleuicolumncontroller.unity3d
+      Dependencies:
+        Dependency_0: ui/water_column.unity3d
+    Info_5:
+      Name: animation/ui/waterhandleuiflashcontroller.unity3d
+      Dependencies:
+        Dependency_0: ui/water_flash.unity3d
+    Info_6:
+      Name: animation/ui/waterhandleuimancontroller.unity3d
+      Dependencies:
+        Dependency_0: ui/water_man.unity3d
+    Info_7:
+      Name: animation/ui/waterhandleuipullhintcontroller.unity3d
+      Dependencies:
+        Dependency_0: ui/water_pull_ch.unity3d
+    Info_8:
+      Name: animation/ui/waterhandleuisplashcontroller.unity3d
+      Dependencies:
+        Dependency_0: ui/frame_watersplash.unity3d
+    Info_9:
+      Name: animation/ui/waterhandleuitimerewardcontroller.unity3d
+      Dependencies:
+        Dependency_0: ui/time_reward_ch.unity3d
+    Info_10:
+      Name: audios/music_panel_select.unity3d
+      Dependencies: {}
+    Info_11:
+      Name: audios/music_scene0_0.unity3d
+      Dependencies: {}
+    Info_12:
+      Name: audios/music_scene0_1.unity3d
+      Dependencies: {}
+    Info_13:
+      Name: audios/music_scene0_2.unity3d
+      Dependencies: {}
+    Info_14:
+      Name: audios/music_scene1.unity3d
+      Dependencies: {}
+    Info_15:
+      Name: audios/music_scene2.unity3d
+      Dependencies: {}
+    Info_16:
+      Name: audios/music_standby_00.unity3d
+      Dependencies: {}
+    Info_17:
+      Name: audios/music_standby_01.unity3d
+      Dependencies: {}
+    Info_18:
+      Name: audios/music_standby_02.unity3d
+      Dependencies: {}
+    Info_19:
+      Name: audios/music_standby_03.unity3d
+      Dependencies: {}
+    Info_20:
+      Name: audios/sfx_sound_change.unity3d
+      Dependencies: {}
+    Info_21:
+      Name: audios/sfx_sound_crash_screen.unity3d
+      Dependencies: {}
+    Info_22:
+      Name: audios/sfx_sound_hit_cricle.unity3d
+      Dependencies: {}
+    Info_23:
+      Name: audios/sfx_sound_monster_be_destroy.unity3d
+      Dependencies: {}
+    Info_24:
+      Name: audios/sfx_sound_sure.unity3d
+      Dependencies: {}
+    Info_25:
+      Name: audios/voice_bfiremonster0_ch.unity3d
+      Dependencies: {}
+    Info_26:
+      Name: audios/voice_bfiremonster1_ch.unity3d
+      Dependencies: {}
+    Info_27:
+      Name: audios/voice_bfiremonster2_ch.unity3d
+      Dependencies: {}
+    Info_28:
+      Name: audios/voice_smokemonster0_ch.unity3d
+      Dependencies: {}
+    Info_29:
+      Name: audios/voice_smokemonster1_ch.unity3d
+      Dependencies: {}
+    Info_30:
+      Name: audios/voice_smokemonster2_ch.unity3d
+      Dependencies: {}
+    Info_31:
+      Name: materials/5animal.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/5animal.unity3d
+    Info_32:
+      Name: materials/bear.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/bear.unity3d
+    Info_33:
+      Name: materials/bull_demon_king.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/bull_demon_king.unity3d
+    Info_34:
+      Name: materials/cityzen.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/cityzen.unity3d
+    Info_35:
+      Name: materials/dragon.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/dragon.unity3d
+    Info_36:
+      Name: materials/elite_monster.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/elite_monster.unity3d
+    Info_37:
+      Name: materials/helicopter.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/helicopter.unity3d
+    Info_38:
+      Name: materials/life_boat.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/life_boat.unity3d
+    Info_39:
+      Name: materials/map.unity3d
+      Dependencies:
+        Dependency_0: textures/map.unity3d
+    Info_40:
+      Name: materials/monster.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/monster.unity3d
+    Info_41:
+      Name: materials/particle.unity3d
+      Dependencies:
+        Dependency_0: textures/particle.unity3d
+    Info_42:
+      Name: materials/player.unity3d
+      Dependencies:
+        Dependency_0: shaders/toony_basic_outline.unity3d
+        Dependency_1: textures/player.unity3d
+    Info_43:
+      Name: materials/prop.unity3d
+      Dependencies:
+        Dependency_0: shaders/toony_basic_outline.unity3d
+        Dependency_1: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_2: textures/prop.unity3d
+    Info_44:
+      Name: materials/pterosaur.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/pterosaur.unity3d
+    Info_45:
+      Name: materials/speed_boat.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/life_boat.unity3d
+        Dependency_2: textures/speed_boat.unity3d
+    Info_46:
+      Name: materials/ui.unity3d
+      Dependencies: {}
+    Info_47:
+      Name: materials/wolf.unity3d
+      Dependencies:
+        Dependency_0: shaders/unlit_alpha_test_cull_off.unity3d
+        Dependency_1: textures/wolf.unity3d
+    Info_48:
+      Name: models/5animal.unity3d
+      Dependencies:
+        Dependency_0: materials/5animal.unity3d
+    Info_49:
+      Name: models/bear.unity3d
+      Dependencies: {}
+    Info_50:
+      Name: models/bull_demon_king.unity3d
+      Dependencies: {}
+    Info_51:
+      Name: models/cityzen.unity3d
+      Dependencies:
+        Dependency_0: materials/cityzen.unity3d
+    Info_52:
+      Name: models/dragon.unity3d
+      Dependencies: {}
+    Info_53:
+      Name: models/elite_monster.unity3d
+      Dependencies: {}
+    Info_54:
+      Name: models/hand.unity3d
+      Dependencies: {}
+    Info_55:
+      Name: models/helicopter.unity3d
+      Dependencies: {}
+    Info_56:
+      Name: models/life_boat.unity3d
+      Dependencies: {}
+    Info_57:
+      Name: models/monster.unity3d
+      Dependencies: {}
+    Info_58:
+      Name: models/player.unity3d
+      Dependencies: {}
+    Info_59:
+      Name: models/prop.unity3d
+      Dependencies: {}
+    Info_60:
+      Name: models/pterosaur.unity3d
+      Dependencies: {}
+    Info_61:
+      Name: models/speed_boat.unity3d
+      Dependencies:
+        Dependency_0: materials/speed_boat.unity3d
+    Info_62:
+      Name: models/wolf.unity3d
+      Dependencies:
+        Dependency_0: materials/wolf.unity3d
+    Info_63:
+      Name: prefabs/pool/ball.unity3d
+      Dependencies: {}
+    Info_64:
+      Name: prefabs/pool/bear.unity3d
+      Dependencies:
+        Dependency_0: materials/bear.unity3d
+        Dependency_1: models/bear.unity3d
+    Info_65:
+      Name: prefabs/pool/box.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_66:
+      Name: prefabs/pool/bucket.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_67:
+      Name: prefabs/pool/bull_demon_king.unity3d
+      Dependencies:
+        Dependency_0: materials/bull_demon_king.unity3d
+        Dependency_1: models/bull_demon_king.unity3d
+    Info_68:
+      Name: prefabs/pool/citizen0.unity3d
+      Dependencies:
+        Dependency_0: materials/cityzen.unity3d
+        Dependency_1: models/cityzen.unity3d
+    Info_69:
+      Name: prefabs/pool/citizen1.unity3d
+      Dependencies:
+        Dependency_0: materials/cityzen.unity3d
+        Dependency_1: models/cityzen.unity3d
+    Info_70:
+      Name: prefabs/pool/citizen2.unity3d
+      Dependencies:
+        Dependency_0: materials/cityzen.unity3d
+        Dependency_1: models/cityzen.unity3d
+    Info_71:
+      Name: prefabs/pool/coin.unity3d
+      Dependencies:
+        Dependency_0: materials/life_boat.unity3d
+        Dependency_1: materials/prop.unity3d
+        Dependency_2: models/prop.unity3d
+    Info_72:
+      Name: prefabs/pool/dragon.unity3d
+      Dependencies:
+        Dependency_0: materials/dragon.unity3d
+        Dependency_1: models/dragon.unity3d
+    Info_73:
+      Name: prefabs/pool/effect_mini_fire_monster_bron.unity3d
+      Dependencies:
+        Dependency_0: materials/particle.unity3d
+    Info_74:
+      Name: prefabs/pool/effect_smoke_monster_born.unity3d
+      Dependencies:
+        Dependency_0: materials/particle.unity3d
+    Info_75:
+      Name: prefabs/pool/elite_monster.unity3d
+      Dependencies:
+        Dependency_0: materials/elite_monster.unity3d
+        Dependency_1: models/elite_monster.unity3d
+    Info_76:
+      Name: prefabs/pool/extinguisher.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_77:
+      Name: prefabs/pool/freeze.unity3d
+      Dependencies: {}
+    Info_78:
+      Name: prefabs/pool.unity3d
+      Dependencies: {}
+    Info_79:
+      Name: prefabs/pool/hand.unity3d
+      Dependencies:
+        Dependency_0: materials/elite_monster.unity3d
+        Dependency_1: models/hand.unity3d
+    Info_80:
+      Name: prefabs/pool/helicopter.unity3d
+      Dependencies:
+        Dependency_0: materials/helicopter.unity3d
+        Dependency_1: models/helicopter.unity3d
+    Info_81:
+      Name: prefabs/pool/huge_fire_monster.unity3d
+      Dependencies:
+        Dependency_0: materials/monster.unity3d
+        Dependency_1: models/monster.unity3d
+    Info_82:
+      Name: prefabs/pool/hydrant.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_83:
+      Name: prefabs/pool/life_boat.unity3d
+      Dependencies:
+        Dependency_0: materials/life_boat.unity3d
+        Dependency_1: models/life_boat.unity3d
+    Info_84:
+      Name: prefabs/pool/life_buoy.unity3d
+      Dependencies:
+        Dependency_0: materials/life_boat.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_85:
+      Name: prefabs/pool/map0.unity3d
+      Dependencies:
+        Dependency_0: materials/map.unity3d
+    Info_86:
+      Name: prefabs/pool/map1.unity3d
+      Dependencies:
+        Dependency_0: materials/map.unity3d
+    Info_87:
+      Name: prefabs/pool/map2.unity3d
+      Dependencies:
+        Dependency_0: materials/map.unity3d
+    Info_88:
+      Name: prefabs/pool/mini_fire_monster.unity3d
+      Dependencies:
+        Dependency_0: materials/monster.unity3d
+        Dependency_1: models/monster.unity3d
+    Info_89:
+      Name: prefabs/pool/move_extinguisher.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_90:
+      Name: prefabs/pool/npc0.unity3d
+      Dependencies:
+        Dependency_0: materials/5animal.unity3d
+        Dependency_1: models/5animal.unity3d
+    Info_91:
+      Name: prefabs/pool/npc1.unity3d
+      Dependencies:
+        Dependency_0: materials/5animal.unity3d
+        Dependency_1: models/5animal.unity3d
+    Info_92:
+      Name: prefabs/pool/npc2.unity3d
+      Dependencies:
+        Dependency_0: materials/5animal.unity3d
+        Dependency_1: models/5animal.unity3d
+    Info_93:
+      Name: prefabs/pool/npc3.unity3d
+      Dependencies:
+        Dependency_0: materials/5animal.unity3d
+        Dependency_1: models/5animal.unity3d
+    Info_94:
+      Name: prefabs/pool/npc4.unity3d
+      Dependencies:
+        Dependency_0: materials/5animal.unity3d
+        Dependency_1: models/5animal.unity3d
+    Info_95:
+      Name: prefabs/pool/player0.unity3d
+      Dependencies:
+        Dependency_0: materials/player.unity3d
+        Dependency_1: models/player.unity3d
+    Info_96:
+      Name: prefabs/pool/player1.unity3d
+      Dependencies:
+        Dependency_0: materials/player.unity3d
+        Dependency_1: models/player.unity3d
+    Info_97:
+      Name: prefabs/pool/player2.unity3d
+      Dependencies:
+        Dependency_0: materials/player.unity3d
+        Dependency_1: models/player.unity3d
+    Info_98:
+      Name: prefabs/pool/pterosaur.unity3d
+      Dependencies:
+        Dependency_0: materials/pterosaur.unity3d
+        Dependency_1: models/pterosaur.unity3d
+    Info_99:
+      Name: prefabs/pool/sand_box.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_100:
+      Name: prefabs/pool/smoke_fire_monster.unity3d
+      Dependencies:
+        Dependency_0: materials/monster.unity3d
+        Dependency_1: models/monster.unity3d
+    Info_101:
+      Name: prefabs/pool/speed_boat.unity3d
+      Dependencies:
+        Dependency_0: materials/speed_boat.unity3d
+        Dependency_1: models/speed_boat.unity3d
+    Info_102:
+      Name: prefabs/pool/super_water.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_103:
+      Name: prefabs/pool/support.unity3d
+      Dependencies: {}
+    Info_104:
+      Name: prefabs/pool/telephone.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_105:
+      Name: prefabs/pool/water.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_106:
+      Name: prefabs/pool/water_ bottle.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_107:
+      Name: prefabs/pool/water_wheel.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_108:
+      Name: prefabs/pool/well.unity3d
+      Dependencies:
+        Dependency_0: materials/prop.unity3d
+        Dependency_1: models/prop.unity3d
+    Info_109:
+      Name: prefabs/pool/wolf.unity3d
+      Dependencies:
+        Dependency_0: materials/wolf.unity3d
+        Dependency_1: models/wolf.unity3d
+    Info_110:
+      Name: prefabs/ui/panel_battle.unity3d
+      Dependencies:
+        Dependency_0: animation/ui/water.unity3d
+        Dependency_1: materials/ui.unity3d
+    Info_111:
+      Name: prefabs/ui/panel_coin.unity3d
+      Dependencies:
+        Dependency_0: materials/ui.unity3d
+    Info_112:
+      Name: prefabs/ui/panel_loading.unity3d
+      Dependencies: {}
+    Info_113:
+      Name: prefabs/ui/panel_select.unity3d
+      Dependencies:
+        Dependency_0: animation/ui/water.unity3d
+        Dependency_1: materials/ui.unity3d
+    Info_114:
+      Name: prefabs/ui/panel_setting.unity3d
+      Dependencies: {}
+    Info_115:
+      Name: prefabs/ui/panel_summary.unity3d
+      Dependencies:
+        Dependency_0: materials/ui.unity3d
+    Info_116:
+      Name: prefabs/ui/panel_water.unity3d
+      Dependencies:
+        Dependency_0: animation/ui/waterhandleuibubble.unity3d
+        Dependency_1: animation/ui/waterhandleuicolumncontroller.unity3d
+        Dependency_2: animation/ui/waterhandleuiflashcontroller.unity3d
+        Dependency_3: animation/ui/waterhandleuimancontroller.unity3d
+        Dependency_4: animation/ui/waterhandleuipullhintcontroller.unity3d
+        Dependency_5: animation/ui/waterhandleuisplashcontroller.unity3d
+        Dependency_6: animation/ui/waterhandleuitimerewardcontroller.unity3d
+        Dependency_7: materials/ui.unity3d
+        Dependency_8: ui/frame_watersplash.unity3d
+        Dependency_9: ui/time_reward_ch.unity3d
+        Dependency_10: ui/water_bubble.unity3d
+        Dependency_11: ui/water_column.unity3d
+        Dependency_12: ui/water_flash.unity3d
+        Dependency_13: ui/water_man.unity3d
+        Dependency_14: ui/water_pull_ch.unity3d
+    Info_117:
+      Name: prefabs/ui/ui_root_ex.unity3d
+      Dependencies: {}
+    Info_118:
+      Name: shaders/rimspecular.unity3d
+      Dependencies: {}
+    Info_119:
+      Name: shaders/toony_basic_outline.unity3d
+      Dependencies: {}
+    Info_120:
+      Name: shaders/unlit_alpha_test_cull_off.unity3d
+      Dependencies: {}
+    Info_121:
+      Name: spritesatlas/panel_battle_atlas.unity3d
+      Dependencies: {}
+    Info_122:
+      Name: spritesatlas/panel_select_atlas.unity3d
+      Dependencies: {}
+    Info_123:
+      Name: spritesatlas/panel_start_atlas.unity3d
+      Dependencies: {}
+    Info_124:
+      Name: spritesatlas/panel_summary_atlas.unity3d
+      Dependencies: {}
+    Info_125:
+      Name: spritesatlas/panel_water_atlas.unity3d
+      Dependencies: {}
+    Info_126:
+      Name: textures/5animal.unity3d
+      Dependencies: {}
+    Info_127:
+      Name: textures/bear.unity3d
+      Dependencies: {}
+    Info_128:
+      Name: textures/bull_demon_king.unity3d
+      Dependencies: {}
+    Info_129:
+      Name: textures/cityzen.unity3d
+      Dependencies: {}
+    Info_130:
+      Name: textures/dragon.unity3d
+      Dependencies: {}
+    Info_131:
+      Name: textures/elite_monster.unity3d
+      Dependencies: {}
+    Info_132:
+      Name: textures/helicopter.unity3d
+      Dependencies: {}
+    Info_133:
+      Name: textures/life_boat.unity3d
+      Dependencies: {}
+    Info_134:
+      Name: textures/map.unity3d
+      Dependencies: {}
+    Info_135:
+      Name: textures/monster.unity3d
+      Dependencies: {}
+    Info_136:
+      Name: textures/particle.unity3d
+      Dependencies: {}
+    Info_137:
+      Name: textures/player.unity3d
+      Dependencies: {}
+    Info_138:
+      Name: textures/prop.unity3d
+      Dependencies: {}
+    Info_139:
+      Name: textures/pterosaur.unity3d
+      Dependencies: {}
+    Info_140:
+      Name: textures/speed_boat.unity3d
+      Dependencies: {}
+    Info_141:
+      Name: textures/wolf.unity3d
+      Dependencies: {}
+    Info_142:
+      Name: ui/battle.unity3d
+      Dependencies: {}
+    Info_143:
+      Name: ui/frame_watersplash.unity3d
+      Dependencies: {}
+    Info_144:
+      Name: ui/time_reward_ch.unity3d
+      Dependencies: {}
+    Info_145:
+      Name: ui/water_bubble.unity3d
+      Dependencies: {}
+    Info_146:
+      Name: ui/water_column.unity3d
+      Dependencies: {}
+    Info_147:
+      Name: ui/water_flash.unity3d
+      Dependencies: {}
+    Info_148:
+      Name: ui/water_man.unity3d
+      Dependencies: {}
+    Info_149:
+      Name: ui/water_pull_ch.unity3d
+      Dependencies: {}

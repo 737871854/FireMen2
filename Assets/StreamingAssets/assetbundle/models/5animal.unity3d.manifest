@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 2365513268
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 79323e7f7de4b7b21d0d0a376906351d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fb0397dd12a805753eee98e740b25e57
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/models/5animal/chicken_controller.controller
+- Assets/RawRes/models/5animal/niu@idle1.FBX
+- Assets/RawRes/models/5animal/caonima@idle2.FBX
+- Assets/RawRes/models/5animal/zhu@idle1.FBX
+- Assets/RawRes/models/5animal/ji@idle1.FBX
+- Assets/RawRes/models/5animal/zhu.FBX
+- Assets/RawRes/models/5animal/ji@idle2.FBX
+- Assets/RawRes/models/5animal/sheep.controller
+- Assets/RawRes/models/5animal/yang.FBX
+- Assets/RawRes/models/5animal/pig.controller
+- Assets/RawRes/models/5animal/ji.FBX
+- Assets/RawRes/models/5animal/caonima_controller.controller
+- Assets/RawRes/models/5animal/cow_controller.controller
+- Assets/RawRes/models/5animal/yang@idle1.FBX
+- Assets/RawRes/models/5animal/yang@idle2.FBX
+- Assets/RawRes/models/5animal/zhu@idle2.FBX
+- Assets/RawRes/models/5animal/caonima@idle.FBX
+- Assets/RawRes/models/5animal/niu@idle2.FBX
+- Assets/RawRes/models/5animal/caonima.FBX
+- Assets/RawRes/models/5animal/niu.FBX
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/5animal.unity3d

@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 2659832965
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 26d821555c5a09ea2f0b44c4d47ffdb3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 192aa3da5f42b5019eb6cf30cca17d06
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/RawRes/prefabs/ui/panel_water.prefab
+Dependencies:
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/animation/ui/waterhandleuibubble.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/animation/ui/waterhandleuicolumncontroller.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/animation/ui/waterhandleuiflashcontroller.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/animation/ui/waterhandleuimancontroller.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/animation/ui/waterhandleuipullhintcontroller.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/animation/ui/waterhandleuisplashcontroller.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/animation/ui/waterhandleuitimerewardcontroller.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/materials/ui.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/frame_watersplash.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/time_reward_ch.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/water_bubble.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/water_column.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/water_flash.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/water_man.unity3d
+- F:/FireMen2/Solution/Assets/StreamingAssets/assetbundle/ui/water_pull_ch.unity3d
